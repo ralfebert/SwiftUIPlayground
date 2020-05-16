@@ -5,9 +5,9 @@ import SwiftUI
 /// Conditional DatePicker in SwiftUI
 /// see https://stackoverflow.com/questions/61831882/swiftui-list-conditional-items-break-animations
 struct ConditionalDatePickerView: View {
-    
+
     @State var showDatePicker = false
-    
+
     var body: some View {
         Form {
             Section(header: Text("Section 1")) {

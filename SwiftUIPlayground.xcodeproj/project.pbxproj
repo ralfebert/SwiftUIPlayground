@@ -17,6 +17,7 @@
 		BFF8F870246FA5680034DA9E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BFF8F86F246FA5680034DA9E /* README.md */; };
 		BFF8F872246FA8380034DA9E /* ConditionalDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F871246FA8380034DA9E /* ConditionalDatePickerView.swift */; };
 		BFF8F874246FABD90034DA9E /* SizedUIViewRepresentableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F873246FABD90034DA9E /* SizedUIViewRepresentableView.swift */; };
+		BFF8F876246FB0120034DA9E /* LinkedStateChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F875246FB0120034DA9E /* LinkedStateChangeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		BFF8F86F246FA5680034DA9E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BFF8F871246FA8380034DA9E /* ConditionalDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalDatePickerView.swift; sourceTree = "<group>"; };
 		BFF8F873246FABD90034DA9E /* SizedUIViewRepresentableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizedUIViewRepresentableView.swift; sourceTree = "<group>"; };
+		BFF8F875246FB0120034DA9E /* LinkedStateChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedStateChangeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +122,7 @@
 				BFF8F871246FA8380034DA9E /* ConditionalDatePickerView.swift */,
 				BFF8F850246FA10B0034DA9E /* ClipImageSquareView.swift */,
 				BFF8F873246FABD90034DA9E /* SizedUIViewRepresentableView.swift */,
+				BFF8F875246FB0120034DA9E /* LinkedStateChangeView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -230,6 +233,7 @@
 				BFF8F84D246FA10B0034DA9E /* AppDelegate.swift in Sources */,
 				BFF8F84F246FA10B0034DA9E /* SceneDelegate.swift in Sources */,
 				BFF8F851246FA10B0034DA9E /* ClipImageSquareView.swift in Sources */,
+				BFF8F876246FB0120034DA9E /* LinkedStateChangeView.swift in Sources */,
 				BFF8F872246FA8380034DA9E /* ConditionalDatePickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
