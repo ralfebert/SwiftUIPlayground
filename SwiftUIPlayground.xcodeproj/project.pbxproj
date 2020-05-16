@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF90EA87247041DF00FCF16D /* SwiftUISwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90EA86247041DF00FCF16D /* SwiftUISwitchView.swift */; };
 		BFDBD5BC246FEAB0000B8CB5 /* KeyboardAware in Frameworks */ = {isa = PBXBuildFile; productRef = BFDBD5BB246FEAB0000B8CB5 /* KeyboardAware */; };
+		BFDBD5BE2470385A000B8CB5 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDBD5BD2470385A000B8CB5 /* DragGestureView.swift */; };
 		BFF8F84D246FA10B0034DA9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F84C246FA10B0034DA9E /* AppDelegate.swift */; };
 		BFF8F84F246FA10B0034DA9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F84E246FA10B0034DA9E /* SceneDelegate.swift */; };
 		BFF8F851246FA10B0034DA9E /* ClipImageSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F850246FA10B0034DA9E /* ClipImageSquareView.swift */; };
@@ -35,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF90EA86247041DF00FCF16D /* SwiftUISwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISwitchView.swift; sourceTree = "<group>"; };
+		BFDBD5BD2470385A000B8CB5 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 		BFF8F849246FA10B0034DA9E /* SwiftUIPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF8F84C246FA10B0034DA9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BFF8F84E246FA10B0034DA9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -134,6 +138,8 @@
 				BFF8F877246FB5CA0034DA9E /* ColorCycleView.swift */,
 				BFF8F879246FB8280034DA9E /* PlayersProgressView.swift */,
 				BFF8F87B246FD8170034DA9E /* KeyboardAwareView.swift */,
+				BFDBD5BD2470385A000B8CB5 /* DragGestureView.swift */,
+				BF90EA86247041DF00FCF16D /* SwiftUISwitchView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -253,7 +259,9 @@
 				BFF8F87A246FB8280034DA9E /* PlayersProgressView.swift in Sources */,
 				BFF8F87C246FD8170034DA9E /* KeyboardAwareView.swift in Sources */,
 				BFF8F851246FA10B0034DA9E /* ClipImageSquareView.swift in Sources */,
+				BF90EA87247041DF00FCF16D /* SwiftUISwitchView.swift in Sources */,
 				BFF8F876246FB0120034DA9E /* LinkedStateChangeView.swift in Sources */,
+				BFDBD5BE2470385A000B8CB5 /* DragGestureView.swift in Sources */,
 				BFF8F872246FA8380034DA9E /* ConditionalDatePickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
