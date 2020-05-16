@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BFDBD5BC246FEAB0000B8CB5 /* KeyboardAware in Frameworks */ = {isa = PBXBuildFile; productRef = BFDBD5BB246FEAB0000B8CB5 /* KeyboardAware */; };
 		BFF8F84D246FA10B0034DA9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F84C246FA10B0034DA9E /* AppDelegate.swift */; };
 		BFF8F84F246FA10B0034DA9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F84E246FA10B0034DA9E /* SceneDelegate.swift */; };
 		BFF8F851246FA10B0034DA9E /* ClipImageSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F850246FA10B0034DA9E /* ClipImageSquareView.swift */; };
@@ -20,6 +21,7 @@
 		BFF8F876246FB0120034DA9E /* LinkedStateChangeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F875246FB0120034DA9E /* LinkedStateChangeView.swift */; };
 		BFF8F878246FB5CA0034DA9E /* ColorCycleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F877246FB5CA0034DA9E /* ColorCycleView.swift */; };
 		BFF8F87A246FB8280034DA9E /* PlayersProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F879246FB8280034DA9E /* PlayersProgressView.swift */; };
+		BFF8F87C246FD8170034DA9E /* KeyboardAwareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F87B246FD8170034DA9E /* KeyboardAwareView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,6 +52,7 @@
 		BFF8F875246FB0120034DA9E /* LinkedStateChangeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinkedStateChangeView.swift; sourceTree = "<group>"; };
 		BFF8F877246FB5CA0034DA9E /* ColorCycleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCycleView.swift; sourceTree = "<group>"; };
 		BFF8F879246FB8280034DA9E /* PlayersProgressView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayersProgressView.swift; sourceTree = "<group>"; };
+		BFF8F87B246FD8170034DA9E /* KeyboardAwareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardAwareView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +60,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFDBD5BC246FEAB0000B8CB5 /* KeyboardAware in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -129,6 +133,7 @@
 				BFF8F875246FB0120034DA9E /* LinkedStateChangeView.swift */,
 				BFF8F877246FB5CA0034DA9E /* ColorCycleView.swift */,
 				BFF8F879246FB8280034DA9E /* PlayersProgressView.swift */,
+				BFF8F87B246FD8170034DA9E /* KeyboardAwareView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -149,6 +154,9 @@
 			dependencies = (
 			);
 			name = SwiftUIPlayground;
+			packageProductDependencies = (
+				BFDBD5BB246FEAB0000B8CB5 /* KeyboardAware */,
+			);
 			productName = SwiftUIPlayground;
 			productReference = BFF8F849246FA10B0034DA9E /* SwiftUIPlayground.app */;
 			productType = "com.apple.product-type.application";
@@ -199,6 +207,9 @@
 				Base,
 			);
 			mainGroup = BFF8F840246FA10B0034DA9E;
+			packageReferences = (
+				BFDBD5BA246FEAB0000B8CB5 /* XCRemoteSwiftPackageReference "KeyboardAwareSwiftUI" */,
+			);
 			productRefGroup = BFF8F84A246FA10B0034DA9E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -240,6 +251,7 @@
 				BFF8F84F246FA10B0034DA9E /* SceneDelegate.swift in Sources */,
 				BFF8F878246FB5CA0034DA9E /* ColorCycleView.swift in Sources */,
 				BFF8F87A246FB8280034DA9E /* PlayersProgressView.swift in Sources */,
+				BFF8F87C246FD8170034DA9E /* KeyboardAwareView.swift in Sources */,
 				BFF8F851246FA10B0034DA9E /* ClipImageSquareView.swift in Sources */,
 				BFF8F876246FB0120034DA9E /* LinkedStateChangeView.swift in Sources */,
 				BFF8F872246FA8380034DA9E /* ConditionalDatePickerView.swift in Sources */,
@@ -505,6 +517,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		BFDBD5BA246FEAB0000B8CB5 /* XCRemoteSwiftPackageReference "KeyboardAwareSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ralfebert/KeyboardAwareSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BFDBD5BB246FEAB0000B8CB5 /* KeyboardAware */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BFDBD5BA246FEAB0000B8CB5 /* XCRemoteSwiftPackageReference "KeyboardAwareSwiftUI" */;
+			productName = KeyboardAware;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BFF8F841246FA10B0034DA9E /* Project object */;
 }
