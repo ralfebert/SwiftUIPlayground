@@ -1,8 +1,8 @@
 // SwiftUIPlayground
+// https://github.com/ralfebert/SwiftUIPlayground/
 
 import SwiftUI
 
-/// see https://stackoverflow.com/questions/61830571/whats-causing-swiftui-nested-view-items-jumpy-animation-after-the-initial-drawi/61832745#61832745
 struct PlayerLoopView: View {
     @ObservedObject var player: Player
 
@@ -12,25 +12,22 @@ struct PlayerLoopView: View {
                 .stroke(style: StrokeStyle(lineWidth: 10.0))
                 .foregroundColor(Color.purple)
                 .opacity(0.3)
-                .overlay(
-                    Circle()
-                        .trim(
-                            from: 0,
-                            to: player.isPlaying ? 1.0 : 0.0
-                        )
-                        .stroke(
-                            style: StrokeStyle(lineWidth: 10.0, lineCap: .round, lineJoin: .round)
-                        )
-                        .animation(
-                            player.isPlaying ?
-                                Animation
-                                .linear(duration: player.duration)
-                                .repeatForever(autoreverses: false) :
-                                .none
-                        )
-                        .rotationEffect(Angle(degrees: -90))
-                        .foregroundColor(Color.purple)
+
+            Circle()
+                .trim(
+                    from: 0,
+                    to: player.isPlaying ? 1.0 : 0.0
                 )
+                .stroke(
+                    style: StrokeStyle(lineWidth: 10.0, lineCap: .round, lineJoin: .round)
+                )
+                .animation(
+                    player.isPlaying ?
+                        Animation.linear(duration: player.duration)
+                        .repeatForever(autoreverses: false) : nil
+                )
+                .rotationEffect(Angle(degrees: -90))
+                .foregroundColor(Color.purple)
         }
         .frame(width: 100, height: 100)
         .padding()
@@ -51,9 +48,17 @@ struct PlayersProgressView: View {
                 }
             }
             .navigationBarItems(trailing:
-                Button("Add Player") {
-                    self.engine.addPlayer()
-                }
+                HStack {
+                    Button("Add Player") {
+                        self.engine.addPlayer()
+                    }
+                    Button("Play All") {
+                        self.engine.playAll()
+                    }
+                    Button("Stop All") {
+                        self.engine.stopAll()
+                    }
+                }.padding()
             )
         }
     }
@@ -62,7 +67,15 @@ struct PlayersProgressView: View {
 class Player: ObservableObject, Identifiable {
     var id = UUID()
     @Published var isPlaying: Bool = false
-    var duration: Double = 1
+    var duration: Double = 10
+
+    func play() {
+        self.isPlaying = true
+    }
+
+    func stop() {
+        self.isPlaying = false
+    }
 }
 
 class Engine: ObservableObject {
@@ -71,9 +84,17 @@ class Engine: ObservableObject {
     func addPlayer() {
         let player = Player()
         players.append(player)
-        DispatchQueue.main.asyncAfter(deadline: .now() + 0.1) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.01) {
             player.isPlaying = true
         }
+    }
+
+    func stopAll() {
+        self.players.forEach { $0.stop() }
+    }
+
+    func playAll() {
+        self.players.forEach { $0.play() }
     }
 }
 
