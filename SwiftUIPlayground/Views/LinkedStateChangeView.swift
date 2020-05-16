@@ -2,6 +2,7 @@
 
 import SwiftUI
 
+/// from https://stackoverflow.com/questions/61831034/swiftui-display-doesnt-update-on-child-link-changing-the-state
 struct LinkedStateChangeView: View {
     @State var enabled: Bool = false
     @State var items: [String] = ["item"]

@@ -2,6 +2,7 @@
 
 import SwiftUI
 
+/// see https://stackoverflow.com/questions/61830571/whats-causing-swiftui-nested-view-items-jumpy-animation-after-the-initial-drawi/61832745#61832745
 struct PlayerLoopView: View {
     @ObservedObject var player: Player
 

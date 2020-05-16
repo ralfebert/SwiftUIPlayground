@@ -24,6 +24,7 @@ struct YellowBoxView: UIViewRepresentable {
 
     func makeUIView(context: Context) -> YellowBoxUIKitView {
         // TODO: How do you pass the size from UIKit up to SwiftUI?
+        // https://stackoverflow.com/questions/61832221/passing-uikit-uiview-size-to-swiftui-in-uiviewrepresentable
         YellowBoxUIKitView()
     }
 

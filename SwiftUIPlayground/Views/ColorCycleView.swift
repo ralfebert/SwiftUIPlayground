@@ -2,6 +2,7 @@
 
 import SwiftUI
 
+/// from https://stackoverflow.com/questions/61831799/changes-are-not-reflected-in-foreach-in-swiftui
 struct ColorCycleView: View {
     @State var index: Int = 0
 
