@@ -1,13 +1,7 @@
-//
-//  SwiftUIPlaygroundTests.swift
-//  SwiftUIPlaygroundTests
-//
-//  Created by Ralf Ebert on 16.05.20.
-//  Copyright © 2020 Ralf Ebert. All rights reserved.
-//
+// SwiftUIPlayground
 
-import XCTest
 @testable import SwiftUIPlayground
+import XCTest
 
 class SwiftUIPlaygroundTests: XCTestCase {
 

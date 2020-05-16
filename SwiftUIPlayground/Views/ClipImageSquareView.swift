@@ -3,8 +3,8 @@
 import SwiftUI
 
 /// Clip image to square in SwiftUI
-/// https://stackoverflow.com/questions/58290963/clip-image-to-square-in-swiftui?rq=1
-struct ClipImageView: View {
+/// see https://stackoverflow.com/questions/58290963/clip-image-to-square-in-swiftui
+struct ClipImageSquareView: View {
     var body: some View {
         HStack {
             ForEach(0 ..< 3, id: \.self) { _ in
@@ -28,8 +28,8 @@ struct ClipImageView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ClipImageSquareView_Previews: PreviewProvider {
     static var previews: some View {
-        ClipImageView()
+        ClipImageSquareView()
     }
 }
