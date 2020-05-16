@@ -9,7 +9,7 @@ struct LinkedStateChangeView: View {
     var body: some View {
         NavigationView {
             Section {
-                ForEach(self.items, id: \.self) { item in
+                ForEach(self.items, id: \.self) { _ in
                     NavigationLink(destination: Toggle(isOn: self.$enabled) { Text("enable") }) {
                         if self.enabled {
                             Text("enabled")
