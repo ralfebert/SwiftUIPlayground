@@ -2,8 +2,9 @@
 
 Runnable SwiftUI examples
 
-* [How to clip image Views to a square](https://github.com/ralfebert/SwiftUIPlayground/blob/master/SwiftUIPlayground/Views/ClipImageSquareView.swift)
-  <img src="docs/ClipImageSquareView.png" width="250">
+[How to clip image Views to a square](https://github.com/ralfebert/SwiftUIPlayground/blob/master/SwiftUIPlayground/Views/ClipImageSquareView.swift):
+
+<img src="docs/ClipImageSquareView.png" width="250">
 
 
 ## Image copyrights
