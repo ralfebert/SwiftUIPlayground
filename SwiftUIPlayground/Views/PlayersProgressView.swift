@@ -19,9 +19,7 @@ struct PlayerLoopView: View {
                             to: player.isPlaying ? 1.0 : 0.0
                         )
                         .stroke(
-                            style: StrokeStyle(lineWidth: 10.0,
-                                               lineCap: .round,
-                                               lineJoin: .round)
+                            style: StrokeStyle(lineWidth: 10.0, lineCap: .round, lineJoin: .round)
                         )
                         .animation(
                             player.isPlaying ?
@@ -47,6 +45,7 @@ struct PlayersProgressView: View {
             VStack {
                 ForEach(self.engine.players) { player in
                     HStack {
+                        Text("Player")
                         PlayerLoopView(player: player)
                     }
                 }
