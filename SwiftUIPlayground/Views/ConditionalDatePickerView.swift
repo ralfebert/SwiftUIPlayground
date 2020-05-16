@@ -2,34 +2,32 @@
 
 import SwiftUI
 
-/// Clip image to square in SwiftUI
-/// see https://stackoverflow.com/questions/58290963/clip-image-to-square-in-swiftui?rq=1
-struct ClipImageSquareView: View {
+/// Conditional DatePicker in SwiftUI
+/// see https://stackoverflow.com/questions/61831882/swiftui-list-conditional-items-break-animations
+struct ConditionalDatePickerView: View {
+    
+    @State var showDatePicker = false
+    
     var body: some View {
-        HStack {
-            ForEach(0 ..< 3, id: \.self) { _ in
-                ZStack {
-                    Image("cookies")
-                        .resizable()
-                        .aspectRatio(contentMode: .fill)
-                        .layoutPriority(-1)
-                    VStack {
-                        Spacer()
-                        Text("Cookie")
-                            .frame(minWidth: 0, maxWidth: .infinity)
-                            .background(Color.white)
-                    }
+        Form {
+            Section(header: Text("Section 1")) {
+                Toggle(isOn: $showDatePicker) {
+                    Text("Show Date Picker")
                 }
-                .clipped()
-                .aspectRatio(1, contentMode: .fit)
-                .border(Color.red)
+                if self.showDatePicker {
+                    DatePicker(selection: .constant(Date()), label: { Text("Date") })
+                }
+            }
+            Section(header: Text("Section 2")) {
+                Text("Hello")
             }
         }
+        .listStyle(GroupedListStyle())
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct ConditionalDatePickerView_Previews: PreviewProvider {
     static var previews: some View {
-        ClipImageSquareView()
+        ConditionalDatePickerView()
     }
 }
