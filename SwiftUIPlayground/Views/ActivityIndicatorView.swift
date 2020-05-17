@@ -3,6 +3,7 @@
 
 import SwiftUI
 
+/// As Swift Package Manager library: https://github.com/ralfebert/ActivityIndicatorView
 struct ActivityIndicatorView: UIViewRepresentable {
 
     @Binding var isAnimating: Bool

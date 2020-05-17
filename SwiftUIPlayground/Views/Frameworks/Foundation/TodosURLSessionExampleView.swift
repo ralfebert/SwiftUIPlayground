@@ -16,12 +16,12 @@ class TodosModel: ObservableObject {
 
     enum State {
         case ready
-        case loading(Any)
+        case loading(Cancellable)
         case loaded
         case error(Error)
     }
 
-    let url = URL(string: "https://jsonplaceholder.typicode.com/photos/")!
+    let url = URL(string: "https://jsonplaceholder.typicode.com/todos/")!
     let urlSession = URLSession.shared
 
     var dataTask: AnyPublisher<[TypiTodo], Error> {
@@ -58,6 +58,9 @@ class TodosModel: ObservableObject {
     }
 }
 
+/// Best Practices to use URLSession to load JSON data for SwiftUI Views
+/// see also: https://stackoverflow.com/questions/61855811/best-practices-to-use-urlsession-to-load-json-data-for-swiftui-views
+/// Base components for abstracting this same approach: https://github.com/ralfebert/EndpointModel
 struct TodosURLSessionExampleView: View {
 
     @ObservedObject var model = TodosModel()
@@ -104,26 +107,26 @@ struct TodosURLSessionExampleView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
             TodosURLSessionExampleView(model: TodosModel())
-            TodosURLSessionExampleView(model: self.loadedExampleModel)
-            TodosURLSessionExampleView(model: self.loadingModel)
-            TodosURLSessionExampleView(model: self.errorModel)
+            TodosURLSessionExampleView(model: self.exampleLoadedModel)
+            TodosURLSessionExampleView(model: self.exampleLoadingModel)
+            TodosURLSessionExampleView(model: self.exampleErrorModel)
         }
     }
 
-    static var loadedExampleModel: TodosModel {
+    static var exampleLoadedModel: TodosModel {
         let todosModel = TodosModel()
         todosModel.todos = [TypiTodo(id: 1, title: "Drink water"), TypiTodo(id: 2, title: "Enjoy the sun")]
         todosModel.state = .loaded
         return todosModel
     }
 
-    static var loadingModel: TodosModel {
+    static var exampleLoadingModel: TodosModel {
         let todosModel = TodosModel()
-        todosModel.state = .loading("foo")
+        todosModel.state = .loading(ExampleCancellable())
         return todosModel
     }
 
-    static var errorModel: TodosModel {
+    static var exampleErrorModel: TodosModel {
         let todosModel = TodosModel()
         todosModel.state = .error(ExampleError.exampleError)
         return todosModel
@@ -131,6 +134,10 @@ struct TodosURLSessionExampleView_Previews: PreviewProvider {
 
     enum ExampleError: Error {
         case exampleError
+    }
+
+    struct ExampleCancellable: Cancellable {
+        func cancel() {}
     }
 
 }
