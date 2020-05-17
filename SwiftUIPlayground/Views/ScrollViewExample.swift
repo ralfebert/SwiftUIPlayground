@@ -16,6 +16,7 @@ struct ScrollViewExample: View {
                     }
                 }
             }
+            .padding()
         })
     }
 }

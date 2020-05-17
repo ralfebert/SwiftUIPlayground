@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		BF6F691824715E0F00658F64 /* TextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F691724715E0F00658F64 /* TextExampleView.swift */; };
 		BF6F691A24715E8300658F64 /* ToggleExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F691924715E8300658F64 /* ToggleExampleView.swift */; };
+		BF6F691C24716BB000658F64 /* ImageExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F691B24716BB000658F64 /* ImageExampleView.swift */; };
 		BF8502D3247148AB0070D0F5 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502D2247148AB0070D0F5 /* Date+Extensions.swift */; };
 		BF8502D524714A580070D0F5 /* AllWidgetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502D424714A580070D0F5 /* AllWidgetsView.swift */; };
 		BF8502D724714E630070D0F5 /* EditButtonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502D624714E630070D0F5 /* EditButtonExampleView.swift */; };
@@ -110,6 +111,7 @@
 /* Begin PBXFileReference section */
 		BF6F691724715E0F00658F64 /* TextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleView.swift; sourceTree = "<group>"; };
 		BF6F691924715E8300658F64 /* ToggleExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleExampleView.swift; sourceTree = "<group>"; };
+		BF6F691B24716BB000658F64 /* ImageExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExampleView.swift; sourceTree = "<group>"; };
 		BF8502D2247148AB0070D0F5 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		BF8502D424714A580070D0F5 /* AllWidgetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllWidgetsView.swift; sourceTree = "<group>"; };
 		BF8502D624714E630070D0F5 /* EditButtonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonExampleView.swift; sourceTree = "<group>"; };
@@ -440,6 +442,7 @@
 				BF8502EC24715C8D0070D0F5 /* StepperExampleView.swift */,
 				BF6F691724715E0F00658F64 /* TextExampleView.swift */,
 				BF6F691924715E8300658F64 /* ToggleExampleView.swift */,
+				BF6F691B24716BB000658F64 /* ImageExampleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -620,6 +623,7 @@
 				BF90EA922471297100FCF16D /* AccountView.swift in Sources */,
 				BF90EB0C2471459200FCF16D /* UserData.swift in Sources */,
 				BF8502E724715A960070D0F5 /* TextFieldExampleView.swift in Sources */,
+				BF6F691C24716BB000658F64 /* ImageExampleView.swift in Sources */,
 				BF90EA87247041DF00FCF16D /* SwiftUISwitchView.swift in Sources */,
 				BF90EB372471459200FCF16D /* HikeView.swift in Sources */,
 				BF90EAC624712C5400FCF16D /* CoreDataStack.swift in Sources */,

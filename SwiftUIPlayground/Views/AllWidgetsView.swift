@@ -25,6 +25,10 @@ struct AllWidgetsView: View {
                             Text("Form Example")
                         }
                     }
+                    Section(header: Text("Image")) {
+                        ImageExampleView()
+                            .padding()
+                    }
                     Section(header: Text("List")) {
                         ListExampleView()
                     }
@@ -46,12 +50,12 @@ struct AllWidgetsView: View {
                             Text("See Form Example")
                         }
                     }
-                    Section(header: Text("Slider")) {
-                        SliderExampleView()
-                    }
                 }
                 // it's true, a view function builder cannot take more than 10 views as of Xcode 11.4
                 Group {
+                    Section(header: Text("Slider")) {
+                        SliderExampleView()
+                    }
                     Section(header: Text("Stepper")) {
                         StepperExampleView()
                     }

@@ -33,6 +33,7 @@ struct PickerExampleView: View {
                 .pickerStyle(SegmentedPickerStyle())
 
         }
+        .padding()
     }
 }
 
