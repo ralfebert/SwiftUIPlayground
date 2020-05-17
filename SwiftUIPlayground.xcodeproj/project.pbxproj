@@ -10,6 +10,8 @@
 		BF6F691824715E0F00658F64 /* TextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F691724715E0F00658F64 /* TextExampleView.swift */; };
 		BF6F691A24715E8300658F64 /* ToggleExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F691924715E8300658F64 /* ToggleExampleView.swift */; };
 		BF6F691C24716BB000658F64 /* ImageExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F691B24716BB000658F64 /* ImageExampleView.swift */; };
+		BF6F6920247199AE00658F64 /* TodosURLSessionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F691F247199AE00658F64 /* TodosURLSessionExampleView.swift */; };
+		BF6F69222471A44300658F64 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F69212471A44300658F64 /* ActivityIndicatorView.swift */; };
 		BF8502D3247148AB0070D0F5 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502D2247148AB0070D0F5 /* Date+Extensions.swift */; };
 		BF8502D524714A580070D0F5 /* AllWidgetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502D424714A580070D0F5 /* AllWidgetsView.swift */; };
 		BF8502D724714E630070D0F5 /* EditButtonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502D624714E630070D0F5 /* EditButtonExampleView.swift */; };
@@ -112,6 +114,8 @@
 		BF6F691724715E0F00658F64 /* TextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleView.swift; sourceTree = "<group>"; };
 		BF6F691924715E8300658F64 /* ToggleExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleExampleView.swift; sourceTree = "<group>"; };
 		BF6F691B24716BB000658F64 /* ImageExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExampleView.swift; sourceTree = "<group>"; };
+		BF6F691F247199AE00658F64 /* TodosURLSessionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosURLSessionExampleView.swift; sourceTree = "<group>"; };
+		BF6F69212471A44300658F64 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
 		BF8502D2247148AB0070D0F5 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		BF8502D424714A580070D0F5 /* AllWidgetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllWidgetsView.swift; sourceTree = "<group>"; };
 		BF8502D624714E630070D0F5 /* EditButtonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonExampleView.swift; sourceTree = "<group>"; };
@@ -222,6 +226,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF6F691D2471998400658F64 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				BF6F691F247199AE00658F64 /* TodosURLSessionExampleView.swift */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		BF6F691E2471998B00658F64 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6F691D2471998400658F64 /* Foundation */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
 		BF8502D0247148970070D0F5 /* Convenience */ = {
 			isa = PBXGroup;
 			children = (
@@ -443,6 +463,8 @@
 				BF6F691724715E0F00658F64 /* TextExampleView.swift */,
 				BF6F691924715E8300658F64 /* ToggleExampleView.swift */,
 				BF6F691B24716BB000658F64 /* ImageExampleView.swift */,
+				BF6F691E2471998B00658F64 /* Frameworks */,
+				BF6F69212471A44300658F64 /* ActivityIndicatorView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -617,6 +639,7 @@
 				BF8502D724714E630070D0F5 /* EditButtonExampleView.swift in Sources */,
 				BF90EB232471459200FCF16D /* PageViewController.swift in Sources */,
 				BFF8F851246FA10B0034DA9E /* ClipImageSquareView.swift in Sources */,
+				BF6F69222471A44300658F64 /* ActivityIndicatorView.swift in Sources */,
 				BF90EB222471459200FCF16D /* CategoryRow.swift in Sources */,
 				BF90EAD224712D4900FCF16D /* TodosView.swift in Sources */,
 				BF90EB322471459200FCF16D /* GraphCapsule.swift in Sources */,
@@ -631,6 +654,7 @@
 				BF90EB362471459200FCF16D /* HexagonParameters.swift in Sources */,
 				BF90EB272471459200FCF16D /* ProfileHost.swift in Sources */,
 				BF8502D3247148AB0070D0F5 /* Date+Extensions.swift in Sources */,
+				BF6F6920247199AE00658F64 /* TodosURLSessionExampleView.swift in Sources */,
 				BF90EB0D2471459200FCF16D /* Hike.swift in Sources */,
 				BF6F691824715E0F00658F64 /* TextExampleView.swift in Sources */,
 				BF90EB342471459200FCF16D /* HikeBadge.swift in Sources */,
