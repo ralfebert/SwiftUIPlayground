@@ -7,9 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF6F691824715E0F00658F64 /* TextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F691724715E0F00658F64 /* TextExampleView.swift */; };
+		BF6F691A24715E8300658F64 /* ToggleExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F691924715E8300658F64 /* ToggleExampleView.swift */; };
 		BF8502D3247148AB0070D0F5 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502D2247148AB0070D0F5 /* Date+Extensions.swift */; };
 		BF8502D524714A580070D0F5 /* AllWidgetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502D424714A580070D0F5 /* AllWidgetsView.swift */; };
 		BF8502D724714E630070D0F5 /* EditButtonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502D624714E630070D0F5 /* EditButtonExampleView.swift */; };
+		BF8502D92471532A0070D0F5 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502D82471532A0070D0F5 /* MainView.swift */; };
+		BF8502DB247154D60070D0F5 /* NavigationViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502DA247154D60070D0F5 /* NavigationViewExample.swift */; };
+		BF8502DD2471566B0070D0F5 /* PickerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502DC2471566B0070D0F5 /* PickerExampleView.swift */; };
+		BF8502DF247157EA0070D0F5 /* ScrollViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502DE247157EA0070D0F5 /* ScrollViewExample.swift */; };
+		BF8502E1247159800070D0F5 /* ButtonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502E0247159800070D0F5 /* ButtonExampleView.swift */; };
+		BF8502E3247159950070D0F5 /* DatePickerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502E2247159950070D0F5 /* DatePickerExampleView.swift */; };
+		BF8502E5247159A70070D0F5 /* ListExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502E4247159A70070D0F5 /* ListExampleView.swift */; };
+		BF8502E724715A960070D0F5 /* TextFieldExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502E624715A960070D0F5 /* TextFieldExampleView.swift */; };
+		BF8502EB24715B4D0070D0F5 /* SliderExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502EA24715B4D0070D0F5 /* SliderExampleView.swift */; };
+		BF8502ED24715C8D0070D0F5 /* StepperExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502EC24715C8D0070D0F5 /* StepperExampleView.swift */; };
 		BF90EA87247041DF00FCF16D /* SwiftUISwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90EA86247041DF00FCF16D /* SwiftUISwitchView.swift */; };
 		BF90EA8924710F2100FCF16D /* EnvironmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90EA8824710F2100FCF16D /* EnvironmentView.swift */; };
 		BF90EA8B2471148700FCF16D /* ChartExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90EA8A2471148700FCF16D /* ChartExampleView.swift */; };
@@ -96,9 +108,21 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF6F691724715E0F00658F64 /* TextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleView.swift; sourceTree = "<group>"; };
+		BF6F691924715E8300658F64 /* ToggleExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleExampleView.swift; sourceTree = "<group>"; };
 		BF8502D2247148AB0070D0F5 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		BF8502D424714A580070D0F5 /* AllWidgetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllWidgetsView.swift; sourceTree = "<group>"; };
 		BF8502D624714E630070D0F5 /* EditButtonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonExampleView.swift; sourceTree = "<group>"; };
+		BF8502D82471532A0070D0F5 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		BF8502DA247154D60070D0F5 /* NavigationViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewExample.swift; sourceTree = "<group>"; };
+		BF8502DC2471566B0070D0F5 /* PickerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerExampleView.swift; sourceTree = "<group>"; };
+		BF8502DE247157EA0070D0F5 /* ScrollViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewExample.swift; sourceTree = "<group>"; };
+		BF8502E0247159800070D0F5 /* ButtonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonExampleView.swift; sourceTree = "<group>"; };
+		BF8502E2247159950070D0F5 /* DatePickerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerExampleView.swift; sourceTree = "<group>"; };
+		BF8502E4247159A70070D0F5 /* ListExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListExampleView.swift; sourceTree = "<group>"; };
+		BF8502E624715A960070D0F5 /* TextFieldExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldExampleView.swift; sourceTree = "<group>"; };
+		BF8502EA24715B4D0070D0F5 /* SliderExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SliderExampleView.swift; sourceTree = "<group>"; };
+		BF8502EC24715C8D0070D0F5 /* StepperExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepperExampleView.swift; sourceTree = "<group>"; };
 		BF90EA86247041DF00FCF16D /* SwiftUISwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISwitchView.swift; sourceTree = "<group>"; };
 		BF90EA8824710F2100FCF16D /* EnvironmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentView.swift; sourceTree = "<group>"; };
 		BF90EA8A2471148700FCF16D /* ChartExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartExampleView.swift; sourceTree = "<group>"; };
@@ -387,6 +411,8 @@
 		BFF8F86E246FA3F40034DA9E /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				BF8502D82471532A0070D0F5 /* MainView.swift */,
+				BF8502D424714A580070D0F5 /* AllWidgetsView.swift */,
 				BFF8F871246FA8380034DA9E /* ConditionalDatePickerView.swift */,
 				BFF8F850246FA10B0034DA9E /* ClipImageSquareView.swift */,
 				BFF8F873246FABD90034DA9E /* SizedUIViewRepresentableView.swift */,
@@ -402,8 +428,18 @@
 				BF90EA912471297100FCF16D /* AccountView.swift */,
 				BF90EAD124712D4900FCF16D /* TodosView.swift */,
 				BF90EB382471465200FCF16D /* ContactFormView.swift */,
-				BF8502D424714A580070D0F5 /* AllWidgetsView.swift */,
 				BF8502D624714E630070D0F5 /* EditButtonExampleView.swift */,
+				BF8502DA247154D60070D0F5 /* NavigationViewExample.swift */,
+				BF8502DC2471566B0070D0F5 /* PickerExampleView.swift */,
+				BF8502DE247157EA0070D0F5 /* ScrollViewExample.swift */,
+				BF8502E0247159800070D0F5 /* ButtonExampleView.swift */,
+				BF8502E2247159950070D0F5 /* DatePickerExampleView.swift */,
+				BF8502E4247159A70070D0F5 /* ListExampleView.swift */,
+				BF8502E624715A960070D0F5 /* TextFieldExampleView.swift */,
+				BF8502EA24715B4D0070D0F5 /* SliderExampleView.swift */,
+				BF8502EC24715C8D0070D0F5 /* StepperExampleView.swift */,
+				BF6F691724715E0F00658F64 /* TextExampleView.swift */,
+				BF6F691924715E8300658F64 /* ToggleExampleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -543,12 +579,17 @@
 				BFF8F84F246FA10B0034DA9E /* SceneDelegate.swift in Sources */,
 				BF8502D524714A580070D0F5 /* AllWidgetsView.swift in Sources */,
 				BF90EB2B2471459200FCF16D /* CircleImage.swift in Sources */,
+				BF8502E1247159800070D0F5 /* ButtonExampleView.swift in Sources */,
 				BF90EB292471459200FCF16D /* RotatedBadgeSymbol.swift in Sources */,
 				BF90EB2D2471459200FCF16D /* BadgeBackground.swift in Sources */,
+				BF8502DD2471566B0070D0F5 /* PickerExampleView.swift in Sources */,
+				BF8502D92471532A0070D0F5 /* MainView.swift in Sources */,
 				BFF8F878246FB5CA0034DA9E /* ColorCycleView.swift in Sources */,
 				BF90EB2C2471459200FCF16D /* BadgeSymbol.swift in Sources */,
 				BF90EB2A2471459200FCF16D /* MapView.swift in Sources */,
 				BF90EACD24712D0200FCF16D /* Todo+CoreDataClass.swift in Sources */,
+				BF8502E5247159A70070D0F5 /* ListExampleView.swift in Sources */,
+				BF8502E3247159950070D0F5 /* DatePickerExampleView.swift in Sources */,
 				BF90EB262471459200FCF16D /* ProfileEditor.swift in Sources */,
 				BF90EB242471459200FCF16D /* PageView.swift in Sources */,
 				BF90EB212471459200FCF16D /* Home.swift in Sources */,
@@ -557,6 +598,8 @@
 				BF90EB392471465200FCF16D /* ContactFormView.swift in Sources */,
 				BF90EA8B2471148700FCF16D /* ChartExampleView.swift in Sources */,
 				BF90EACA24712CC600FCF16D /* PlaygroundModel.xcdatamodeld in Sources */,
+				BF8502DB247154D60070D0F5 /* NavigationViewExample.swift in Sources */,
+				BF8502EB24715B4D0070D0F5 /* SliderExampleView.swift in Sources */,
 				BF90EB2F2471459200FCF16D /* LandmarkList.swift in Sources */,
 				BFF8F87C246FD8170034DA9E /* KeyboardAwareView.swift in Sources */,
 				BF90EB0B2471459200FCF16D /* Profile.swift in Sources */,
@@ -564,8 +607,10 @@
 				BF90EA8924710F2100FCF16D /* EnvironmentView.swift in Sources */,
 				BF90EB0A2471459200FCF16D /* Data.swift in Sources */,
 				BF90EB302471459200FCF16D /* LandmarkDetail.swift in Sources */,
+				BF8502DF247157EA0070D0F5 /* ScrollViewExample.swift in Sources */,
 				BF90EB352471459200FCF16D /* HikeDetail.swift in Sources */,
 				BF90EB312471459200FCF16D /* LandmarkRow.swift in Sources */,
+				BF8502ED24715C8D0070D0F5 /* StepperExampleView.swift in Sources */,
 				BF8502D724714E630070D0F5 /* EditButtonExampleView.swift in Sources */,
 				BF90EB232471459200FCF16D /* PageViewController.swift in Sources */,
 				BFF8F851246FA10B0034DA9E /* ClipImageSquareView.swift in Sources */,
@@ -574,6 +619,7 @@
 				BF90EB322471459200FCF16D /* GraphCapsule.swift in Sources */,
 				BF90EA922471297100FCF16D /* AccountView.swift in Sources */,
 				BF90EB0C2471459200FCF16D /* UserData.swift in Sources */,
+				BF8502E724715A960070D0F5 /* TextFieldExampleView.swift in Sources */,
 				BF90EA87247041DF00FCF16D /* SwiftUISwitchView.swift in Sources */,
 				BF90EB372471459200FCF16D /* HikeView.swift in Sources */,
 				BF90EAC624712C5400FCF16D /* CoreDataStack.swift in Sources */,
@@ -582,7 +628,9 @@
 				BF90EB272471459200FCF16D /* ProfileHost.swift in Sources */,
 				BF8502D3247148AB0070D0F5 /* Date+Extensions.swift in Sources */,
 				BF90EB0D2471459200FCF16D /* Hike.swift in Sources */,
+				BF6F691824715E0F00658F64 /* TextExampleView.swift in Sources */,
 				BF90EB342471459200FCF16D /* HikeBadge.swift in Sources */,
+				BF6F691A24715E8300658F64 /* ToggleExampleView.swift in Sources */,
 				BFF8F876246FB0120034DA9E /* LinkedStateChangeView.swift in Sources */,
 				BFDBD5BE2470385A000B8CB5 /* DragGestureView.swift in Sources */,
 				BF90EB2E2471459200FCF16D /* Badge.swift in Sources */,

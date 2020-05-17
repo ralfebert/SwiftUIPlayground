@@ -16,7 +16,7 @@ struct Contact: Identifiable {
 
 struct ContactFormView: View {
 
-    @State var contact: Contact
+    @State var contact = Contact.bob
 
     var body: some View {
         Form {
@@ -31,6 +31,9 @@ struct ContactFormView: View {
                 }
                 DatePicker(selection: $contact.birthday, label: { Text("Birthday") })
             }
+            Section(header: Text("Special Form styles")) {
+                PickerExampleView()
+            }
 
         }
         .navigationBarTitle("Contact")
@@ -41,7 +44,7 @@ struct ContactFormView: View {
 struct ContactFormView_Previews: PreviewProvider {
     static var previews: some View {
         NavigationView {
-            ContactFormView(contact: Contact.bob)
+            ContactFormView()
         }
     }
 }
