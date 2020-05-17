@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		BF90EA87247041DF00FCF16D /* SwiftUISwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90EA86247041DF00FCF16D /* SwiftUISwitchView.swift */; };
+		BF90EA8924710F2100FCF16D /* EnvironmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90EA8824710F2100FCF16D /* EnvironmentView.swift */; };
+		BF90EA8B2471148700FCF16D /* ChartExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90EA8A2471148700FCF16D /* ChartExampleView.swift */; };
+		BF90EA8D247121B200FCF16D /* ImagePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90EA8C247121B200FCF16D /* ImagePickerView.swift */; };
+		BF90EA90247125B200FCF16D /* ImagePickerView in Frameworks */ = {isa = PBXBuildFile; productRef = BF90EA8F247125B200FCF16D /* ImagePickerView */; };
+		BF90EA922471297100FCF16D /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90EA912471297100FCF16D /* AccountView.swift */; };
 		BFDBD5BC246FEAB0000B8CB5 /* KeyboardAware in Frameworks */ = {isa = PBXBuildFile; productRef = BFDBD5BB246FEAB0000B8CB5 /* KeyboardAware */; };
 		BFDBD5BE2470385A000B8CB5 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDBD5BD2470385A000B8CB5 /* DragGestureView.swift */; };
 		BFF8F84D246FA10B0034DA9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F84C246FA10B0034DA9E /* AppDelegate.swift */; };
@@ -38,6 +43,10 @@
 
 /* Begin PBXFileReference section */
 		BF90EA86247041DF00FCF16D /* SwiftUISwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISwitchView.swift; sourceTree = "<group>"; };
+		BF90EA8824710F2100FCF16D /* EnvironmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentView.swift; sourceTree = "<group>"; };
+		BF90EA8A2471148700FCF16D /* ChartExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartExampleView.swift; sourceTree = "<group>"; };
+		BF90EA8C247121B200FCF16D /* ImagePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerView.swift; sourceTree = "<group>"; };
+		BF90EA912471297100FCF16D /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		BFDBD5BD2470385A000B8CB5 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 		BFF8F849246FA10B0034DA9E /* SwiftUIPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFF8F84C246FA10B0034DA9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -65,6 +74,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFDBD5BC246FEAB0000B8CB5 /* KeyboardAware in Frameworks */,
+				BF90EA90247125B200FCF16D /* ImagePickerView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -140,6 +150,10 @@
 				BFF8F87B246FD8170034DA9E /* KeyboardAwareView.swift */,
 				BFDBD5BD2470385A000B8CB5 /* DragGestureView.swift */,
 				BF90EA86247041DF00FCF16D /* SwiftUISwitchView.swift */,
+				BF90EA8824710F2100FCF16D /* EnvironmentView.swift */,
+				BF90EA8C247121B200FCF16D /* ImagePickerView.swift */,
+				BF90EA8A2471148700FCF16D /* ChartExampleView.swift */,
+				BF90EA912471297100FCF16D /* AccountView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -162,6 +176,7 @@
 			name = SwiftUIPlayground;
 			packageProductDependencies = (
 				BFDBD5BB246FEAB0000B8CB5 /* KeyboardAware */,
+				BF90EA8F247125B200FCF16D /* ImagePickerView */,
 			);
 			productName = SwiftUIPlayground;
 			productReference = BFF8F849246FA10B0034DA9E /* SwiftUIPlayground.app */;
@@ -215,6 +230,7 @@
 			mainGroup = BFF8F840246FA10B0034DA9E;
 			packageReferences = (
 				BFDBD5BA246FEAB0000B8CB5 /* XCRemoteSwiftPackageReference "KeyboardAwareSwiftUI" */,
+				BF90EA8E247125B200FCF16D /* XCRemoteSwiftPackageReference "ImagePickerView" */,
 			);
 			productRefGroup = BFF8F84A246FA10B0034DA9E /* Products */;
 			projectDirPath = "";
@@ -254,11 +270,15 @@
 			files = (
 				BFF8F874246FABD90034DA9E /* SizedUIViewRepresentableView.swift in Sources */,
 				BFF8F84D246FA10B0034DA9E /* AppDelegate.swift in Sources */,
+				BF90EA8D247121B200FCF16D /* ImagePickerView.swift in Sources */,
 				BFF8F84F246FA10B0034DA9E /* SceneDelegate.swift in Sources */,
 				BFF8F878246FB5CA0034DA9E /* ColorCycleView.swift in Sources */,
 				BFF8F87A246FB8280034DA9E /* PlayersProgressView.swift in Sources */,
+				BF90EA8B2471148700FCF16D /* ChartExampleView.swift in Sources */,
 				BFF8F87C246FD8170034DA9E /* KeyboardAwareView.swift in Sources */,
+				BF90EA8924710F2100FCF16D /* EnvironmentView.swift in Sources */,
 				BFF8F851246FA10B0034DA9E /* ClipImageSquareView.swift in Sources */,
+				BF90EA922471297100FCF16D /* AccountView.swift in Sources */,
 				BF90EA87247041DF00FCF16D /* SwiftUISwitchView.swift in Sources */,
 				BFF8F876246FB0120034DA9E /* LinkedStateChangeView.swift in Sources */,
 				BFDBD5BE2470385A000B8CB5 /* DragGestureView.swift in Sources */,
@@ -527,6 +547,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		BF90EA8E247125B200FCF16D /* XCRemoteSwiftPackageReference "ImagePickerView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ralfebert/ImagePickerView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.5.0;
+			};
+		};
 		BFDBD5BA246FEAB0000B8CB5 /* XCRemoteSwiftPackageReference "KeyboardAwareSwiftUI" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ralfebert/KeyboardAwareSwiftUI.git";
@@ -538,6 +566,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		BF90EA8F247125B200FCF16D /* ImagePickerView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF90EA8E247125B200FCF16D /* XCRemoteSwiftPackageReference "ImagePickerView" */;
+			productName = ImagePickerView;
+		};
 		BFDBD5BB246FEAB0000B8CB5 /* KeyboardAware */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BFDBD5BA246FEAB0000B8CB5 /* XCRemoteSwiftPackageReference "KeyboardAwareSwiftUI" */;
