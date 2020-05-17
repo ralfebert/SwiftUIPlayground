@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF8502D3247148AB0070D0F5 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502D2247148AB0070D0F5 /* Date+Extensions.swift */; };
+		BF8502D524714A580070D0F5 /* AllWidgetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502D424714A580070D0F5 /* AllWidgetsView.swift */; };
+		BF8502D724714E630070D0F5 /* EditButtonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502D624714E630070D0F5 /* EditButtonExampleView.swift */; };
 		BF90EA87247041DF00FCF16D /* SwiftUISwitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90EA86247041DF00FCF16D /* SwiftUISwitchView.swift */; };
 		BF90EA8924710F2100FCF16D /* EnvironmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90EA8824710F2100FCF16D /* EnvironmentView.swift */; };
 		BF90EA8B2471148700FCF16D /* ChartExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90EA8A2471148700FCF16D /* ChartExampleView.swift */; };
@@ -93,6 +96,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BF8502D2247148AB0070D0F5 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
+		BF8502D424714A580070D0F5 /* AllWidgetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllWidgetsView.swift; sourceTree = "<group>"; };
+		BF8502D624714E630070D0F5 /* EditButtonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonExampleView.swift; sourceTree = "<group>"; };
 		BF90EA86247041DF00FCF16D /* SwiftUISwitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUISwitchView.swift; sourceTree = "<group>"; };
 		BF90EA8824710F2100FCF16D /* EnvironmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentView.swift; sourceTree = "<group>"; };
 		BF90EA8A2471148700FCF16D /* ChartExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartExampleView.swift; sourceTree = "<group>"; };
@@ -190,6 +196,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF8502D0247148970070D0F5 /* Convenience */ = {
+			isa = PBXGroup;
+			children = (
+				BF8502D2247148AB0070D0F5 /* Date+Extensions.swift */,
+			);
+			path = Convenience;
+			sourceTree = "<group>";
+		};
 		BF90EAC724712C8300FCF16D /* Models */ = {
 			isa = PBXGroup;
 			children = (
@@ -346,6 +360,7 @@
 				BFF8F85A246FA10D0034DA9E /* Info.plist */,
 				BFF8F854246FA10D0034DA9E /* Preview Content */,
 				BF90EAC724712C8300FCF16D /* Models */,
+				BF8502D0247148970070D0F5 /* Convenience */,
 				BFF8F86E246FA3F40034DA9E /* Views */,
 				BF90EAD32471452E00FCF16D /* AppleSwiftUITutorials */,
 			);
@@ -387,6 +402,8 @@
 				BF90EA912471297100FCF16D /* AccountView.swift */,
 				BF90EAD124712D4900FCF16D /* TodosView.swift */,
 				BF90EB382471465200FCF16D /* ContactFormView.swift */,
+				BF8502D424714A580070D0F5 /* AllWidgetsView.swift */,
+				BF8502D624714E630070D0F5 /* EditButtonExampleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -524,6 +541,7 @@
 				BF90EB252471459200FCF16D /* ProfileSummary.swift in Sources */,
 				BF90EA8D247121B200FCF16D /* ImagePickerView.swift in Sources */,
 				BFF8F84F246FA10B0034DA9E /* SceneDelegate.swift in Sources */,
+				BF8502D524714A580070D0F5 /* AllWidgetsView.swift in Sources */,
 				BF90EB2B2471459200FCF16D /* CircleImage.swift in Sources */,
 				BF90EB292471459200FCF16D /* RotatedBadgeSymbol.swift in Sources */,
 				BF90EB2D2471459200FCF16D /* BadgeBackground.swift in Sources */,
@@ -548,6 +566,7 @@
 				BF90EB302471459200FCF16D /* LandmarkDetail.swift in Sources */,
 				BF90EB352471459200FCF16D /* HikeDetail.swift in Sources */,
 				BF90EB312471459200FCF16D /* LandmarkRow.swift in Sources */,
+				BF8502D724714E630070D0F5 /* EditButtonExampleView.swift in Sources */,
 				BF90EB232471459200FCF16D /* PageViewController.swift in Sources */,
 				BFF8F851246FA10B0034DA9E /* ClipImageSquareView.swift in Sources */,
 				BF90EB222471459200FCF16D /* CategoryRow.swift in Sources */,
@@ -561,6 +580,7 @@
 				BF90EB202471459200FCF16D /* PageControl.swift in Sources */,
 				BF90EB362471459200FCF16D /* HexagonParameters.swift in Sources */,
 				BF90EB272471459200FCF16D /* ProfileHost.swift in Sources */,
+				BF8502D3247148AB0070D0F5 /* Date+Extensions.swift in Sources */,
 				BF90EB0D2471459200FCF16D /* Hike.swift in Sources */,
 				BF90EB342471459200FCF16D /* HikeBadge.swift in Sources */,
 				BFF8F876246FB0120034DA9E /* LinkedStateChangeView.swift in Sources */,
