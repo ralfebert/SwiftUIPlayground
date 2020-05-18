@@ -11,7 +11,9 @@ struct TodosView: View {
     var body: some View {
         NavigationView {
             List(self.todos) { todo in
-                Text(todo.name ?? "")
+                NavigationLink(destination: TodoView(todo: todo)) {
+                    Text(todo.name ?? "")
+                }
             }
             .navigationBarTitle("Todos", displayMode: .inline)
             .navigationBarItems(trailing: addButton)
