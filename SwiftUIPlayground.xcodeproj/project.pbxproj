@@ -82,6 +82,7 @@
 		BF90EB362471459200FCF16D /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90EB082471459200FCF16D /* HexagonParameters.swift */; };
 		BF90EB372471459200FCF16D /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90EB092471459200FCF16D /* HikeView.swift */; };
 		BF90EB392471465200FCF16D /* ContactFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90EB382471465200FCF16D /* ContactFormView.swift */; };
+		BFB9E441247303E300F4C7EE /* PlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB9E440247303E300F4C7EE /* PlaygroundView.swift */; };
 		BFDBD5BC246FEAB0000B8CB5 /* KeyboardAware in Frameworks */ = {isa = PBXBuildFile; productRef = BFDBD5BB246FEAB0000B8CB5 /* KeyboardAware */; };
 		BFDBD5BE2470385A000B8CB5 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDBD5BD2470385A000B8CB5 /* DragGestureView.swift */; };
 		BFF732D424727655005B17A8 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF732D324727655005B17A8 /* TodoView.swift */; };
@@ -187,6 +188,7 @@
 		BF90EB082471459200FCF16D /* HexagonParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		BF90EB092471459200FCF16D /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 		BF90EB382471465200FCF16D /* ContactFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactFormView.swift; sourceTree = "<group>"; };
+		BFB9E440247303E300F4C7EE /* PlaygroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundView.swift; sourceTree = "<group>"; };
 		BFDBD5BD2470385A000B8CB5 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 		BFF732D324727655005B17A8 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
 		BFF732D5247277F6005B17A8 /* Binding+OptionalFallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+OptionalFallback.swift"; sourceTree = "<group>"; };
@@ -450,6 +452,7 @@
 			children = (
 				BF8502D82471532A0070D0F5 /* MainView.swift */,
 				BF8502D424714A580070D0F5 /* AllWidgetsView.swift */,
+				BFB9E440247303E300F4C7EE /* PlaygroundView.swift */,
 				BFF8F871246FA8380034DA9E /* ConditionalDatePickerView.swift */,
 				BFF8F850246FA10B0034DA9E /* ClipImageSquareView.swift */,
 				BFF8F873246FABD90034DA9E /* SizedUIViewRepresentableView.swift */,
@@ -631,6 +634,7 @@
 				BF8502E5247159A70070D0F5 /* ListExampleView.swift in Sources */,
 				BF8502E3247159950070D0F5 /* DatePickerExampleView.swift in Sources */,
 				BF90EB262471459200FCF16D /* ProfileEditor.swift in Sources */,
+				BFB9E441247303E300F4C7EE /* PlaygroundView.swift in Sources */,
 				BF90EB242471459200FCF16D /* PageView.swift in Sources */,
 				BF90EB212471459200FCF16D /* Home.swift in Sources */,
 				BF90EB282471459200FCF16D /* FeatureCard.swift in Sources */,
