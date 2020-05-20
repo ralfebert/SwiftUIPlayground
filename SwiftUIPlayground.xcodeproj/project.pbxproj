@@ -85,6 +85,7 @@
 		BFB9E441247303E300F4C7EE /* PlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB9E440247303E300F4C7EE /* PlaygroundView.swift */; };
 		BFC77F30247507D0007AAE59 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC77F2F247507D0007AAE59 /* MailView.swift */; };
 		BFC77F3424751051007AAE59 /* LayoutSameHeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC77F3324751051007AAE59 /* LayoutSameHeightView.swift */; };
+		BFC77F3624752FBA007AAE59 /* OptionalsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC77F3524752FBA007AAE59 /* OptionalsExampleView.swift */; };
 		BFDBD5BC246FEAB0000B8CB5 /* KeyboardAware in Frameworks */ = {isa = PBXBuildFile; productRef = BFDBD5BB246FEAB0000B8CB5 /* KeyboardAware */; };
 		BFDBD5BE2470385A000B8CB5 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDBD5BD2470385A000B8CB5 /* DragGestureView.swift */; };
 		BFF732D424727655005B17A8 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF732D324727655005B17A8 /* TodoView.swift */; };
@@ -193,6 +194,7 @@
 		BFB9E440247303E300F4C7EE /* PlaygroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundView.swift; sourceTree = "<group>"; };
 		BFC77F2F247507D0007AAE59 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
 		BFC77F3324751051007AAE59 /* LayoutSameHeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutSameHeightView.swift; sourceTree = "<group>"; };
+		BFC77F3524752FBA007AAE59 /* OptionalsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalsExampleView.swift; sourceTree = "<group>"; };
 		BFDBD5BD2470385A000B8CB5 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 		BFF732D324727655005B17A8 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
 		BFF732D5247277F6005B17A8 /* Binding+OptionalFallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+OptionalFallback.swift"; sourceTree = "<group>"; };
@@ -501,6 +503,7 @@
 				BF6F691724715E0F00658F64 /* TextExampleView.swift */,
 				BF6F691924715E8300658F64 /* ToggleExampleView.swift */,
 				BF6F691B24716BB000658F64 /* ImageExampleView.swift */,
+				BFC77F3524752FBA007AAE59 /* OptionalsExampleView.swift */,
 				BFC77F3224751036007AAE59 /* Layout */,
 				BF6F691E2471998B00658F64 /* Frameworks */,
 				BF6F69212471A44300658F64 /* ActivityIndicatorView.swift */,
@@ -659,6 +662,7 @@
 				BF90EB262471459200FCF16D /* ProfileEditor.swift in Sources */,
 				BFB9E441247303E300F4C7EE /* PlaygroundView.swift in Sources */,
 				BF90EB242471459200FCF16D /* PageView.swift in Sources */,
+				BFC77F3624752FBA007AAE59 /* OptionalsExampleView.swift in Sources */,
 				BF90EB212471459200FCF16D /* Home.swift in Sources */,
 				BF90EB282471459200FCF16D /* FeatureCard.swift in Sources */,
 				BFF8F87A246FB8280034DA9E /* PlayersProgressView.swift in Sources */,
