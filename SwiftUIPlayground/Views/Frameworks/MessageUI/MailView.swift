@@ -4,6 +4,7 @@
 import MessageUI
 import SwiftUI
 
+/// https://stackoverflow.com/questions/56784722/swiftui-send-email
 struct MailView: UIViewControllerRepresentable {
 
     @Binding var isShowing: Bool

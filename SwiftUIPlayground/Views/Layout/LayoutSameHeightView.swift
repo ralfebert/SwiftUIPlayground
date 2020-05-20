@@ -12,15 +12,18 @@ struct LayoutSameHeightView: View {
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                 Text("Lorem Ipsum Lorem Ipsum Lorem Ipsum")
-                    .frame(maxHeight: .infinity, alignment: .top) // << here !!
-            }.background(Color.blue)
+
+            }
+            .frame(maxHeight: .infinity, alignment: .center)  // << here !!
+            .background(Color.blue)
             VStack {
                 Image("turtlerock")
                     .resizable()
                     .aspectRatio(contentMode: .fit)
                 Text("Hello")
-                    .frame(maxHeight: .infinity, alignment: .top) // << here !!
-            }.background(Color.red)
+            }
+            .frame(maxHeight: .infinity, alignment: .center)  // << here !!
+            .background(Color.red)
         }
         .fixedSize(horizontal: false, vertical: true) // << here !!
     }
