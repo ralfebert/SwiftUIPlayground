@@ -6,6 +6,7 @@ import SwiftUI
 struct NavigationContentView: View {
 
     @Environment(\.presentationMode) var presentationMode
+    @State var programmaticNavigationExampleSheetVisible = false
 
     var body: some View {
         VStack(spacing: 15.0) {
@@ -16,7 +17,12 @@ struct NavigationContentView: View {
             Button("Go Back") {
                 self.presentationMode.wrappedValue.dismiss()
             }
+            Button("Programmatic Navigation Example") {
+                self.programmaticNavigationExampleSheetVisible = true
+            }
         }
+        .sheet(isPresented: $programmaticNavigationExampleSheetVisible, content: { ProgrammaticNavigationExample()
+        })
         .navigationBarTitle("Content")
     }
 
