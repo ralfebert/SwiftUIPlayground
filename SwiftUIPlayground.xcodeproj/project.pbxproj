@@ -89,6 +89,8 @@
 		BFC77F3624752FBA007AAE59 /* OptionalsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC77F3524752FBA007AAE59 /* OptionalsExampleView.swift */; };
 		BFDBD5BC246FEAB0000B8CB5 /* KeyboardAware in Frameworks */ = {isa = PBXBuildFile; productRef = BFDBD5BB246FEAB0000B8CB5 /* KeyboardAware */; };
 		BFDBD5BE2470385A000B8CB5 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDBD5BD2470385A000B8CB5 /* DragGestureView.swift */; };
+		BFF2C5AB2475CC6A0031B5C3 /* ShareSheetExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5AA2475CC6A0031B5C3 /* ShareSheetExampleView.swift */; };
+		BFF2C5AD2475CE370031B5C3 /* SwiftUI+IfLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5AC2475CE370031B5C3 /* SwiftUI+IfLet.swift */; };
 		BFF732D424727655005B17A8 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF732D324727655005B17A8 /* TodoView.swift */; };
 		BFF732D6247277F6005B17A8 /* Binding+OptionalFallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF732D5247277F6005B17A8 /* Binding+OptionalFallback.swift */; };
 		BFF8F84D246FA10B0034DA9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F84C246FA10B0034DA9E /* AppDelegate.swift */; };
@@ -198,6 +200,8 @@
 		BFC77F3324751051007AAE59 /* LayoutSameHeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutSameHeightView.swift; sourceTree = "<group>"; };
 		BFC77F3524752FBA007AAE59 /* OptionalsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalsExampleView.swift; sourceTree = "<group>"; };
 		BFDBD5BD2470385A000B8CB5 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
+		BFF2C5AA2475CC6A0031B5C3 /* ShareSheetExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheetExampleView.swift; sourceTree = "<group>"; };
+		BFF2C5AC2475CE370031B5C3 /* SwiftUI+IfLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI+IfLet.swift"; sourceTree = "<group>"; };
 		BFF732D324727655005B17A8 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
 		BFF732D5247277F6005B17A8 /* Binding+OptionalFallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+OptionalFallback.swift"; sourceTree = "<group>"; };
 		BFF8F849246FA10B0034DA9E /* SwiftUIPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -262,6 +266,7 @@
 			isa = PBXGroup;
 			children = (
 				BF8502D2247148AB0070D0F5 /* Date+Extensions.swift */,
+				BFF2C5AC2475CE370031B5C3 /* SwiftUI+IfLet.swift */,
 			);
 			path = Convenience;
 			sourceTree = "<group>";
@@ -510,6 +515,7 @@
 				BFC77F3224751036007AAE59 /* Layout */,
 				BF6F691E2471998B00658F64 /* Frameworks */,
 				BF6F69212471A44300658F64 /* ActivityIndicatorView.swift */,
+				BFF2C5AA2475CC6A0031B5C3 /* ShareSheetExampleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -669,6 +675,7 @@
 				BF90EB212471459200FCF16D /* Home.swift in Sources */,
 				BF90EB282471459200FCF16D /* FeatureCard.swift in Sources */,
 				BFF8F87A246FB8280034DA9E /* PlayersProgressView.swift in Sources */,
+				BFF2C5AD2475CE370031B5C3 /* SwiftUI+IfLet.swift in Sources */,
 				BF90EB392471465200FCF16D /* ContactFormView.swift in Sources */,
 				BF90EA8B2471148700FCF16D /* ChartExampleView.swift in Sources */,
 				BF90EACA24712CC600FCF16D /* PlaygroundModel.xcdatamodeld in Sources */,
@@ -704,6 +711,7 @@
 				BF90EAC624712C5400FCF16D /* CoreDataStack.swift in Sources */,
 				BF90EB202471459200FCF16D /* PageControl.swift in Sources */,
 				BF90EB362471459200FCF16D /* HexagonParameters.swift in Sources */,
+				BFF2C5AB2475CC6A0031B5C3 /* ShareSheetExampleView.swift in Sources */,
 				BF90EB272471459200FCF16D /* ProfileHost.swift in Sources */,
 				BF8502D3247148AB0070D0F5 /* Date+Extensions.swift in Sources */,
 				BF6F6920247199AE00658F64 /* TodosURLSessionExampleView.swift in Sources */,

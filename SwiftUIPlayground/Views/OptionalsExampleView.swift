@@ -25,6 +25,31 @@ struct OptionalsMapExampleView: View {
 
 }
 
+/// see SwiftUI+IfLet
+/// see https://stackoverflow.com/questions/60223711/how-to-set-default-clouse-param-in-view-method/60225784#60225784
+struct OptionalsIfLetFunctionExampleView: View {
+
+    var person: Person? = Person(name: "Bob")
+
+    var body: some View {
+        VStack {
+            ifLet(
+                person,
+                then: { person in
+                    VStack {
+                        Text("Name:")
+                        Text(person.name)
+                    }
+                },
+                else: {
+                    Text("No person available")
+                }
+            )
+        }
+    }
+
+}
+
 struct OptionalsGroupExampleView: View {
 
     var person: Person? = Person(name: "Bob")
