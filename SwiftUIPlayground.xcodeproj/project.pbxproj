@@ -91,6 +91,8 @@
 		BFDBD5BE2470385A000B8CB5 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDBD5BD2470385A000B8CB5 /* DragGestureView.swift */; };
 		BFF2C5AB2475CC6A0031B5C3 /* ShareSheetExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5AA2475CC6A0031B5C3 /* ShareSheetExampleView.swift */; };
 		BFF2C5AD2475CE370031B5C3 /* SwiftUI+IfLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5AC2475CE370031B5C3 /* SwiftUI+IfLet.swift */; };
+		BFF2C5B2247648710031B5C3 /* ModalPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5B1247648710031B5C3 /* ModalPickerView.swift */; };
+		BFF2C5B424764EF40031B5C3 /* SelectionEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5B324764EF40031B5C3 /* SelectionEffectView.swift */; };
 		BFF732D424727655005B17A8 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF732D324727655005B17A8 /* TodoView.swift */; };
 		BFF732D6247277F6005B17A8 /* Binding+OptionalFallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF732D5247277F6005B17A8 /* Binding+OptionalFallback.swift */; };
 		BFF8F84D246FA10B0034DA9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F84C246FA10B0034DA9E /* AppDelegate.swift */; };
@@ -202,6 +204,8 @@
 		BFDBD5BD2470385A000B8CB5 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 		BFF2C5AA2475CC6A0031B5C3 /* ShareSheetExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheetExampleView.swift; sourceTree = "<group>"; };
 		BFF2C5AC2475CE370031B5C3 /* SwiftUI+IfLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI+IfLet.swift"; sourceTree = "<group>"; };
+		BFF2C5B1247648710031B5C3 /* ModalPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPickerView.swift; sourceTree = "<group>"; };
+		BFF2C5B324764EF40031B5C3 /* SelectionEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionEffectView.swift; sourceTree = "<group>"; };
 		BFF732D324727655005B17A8 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
 		BFF732D5247277F6005B17A8 /* Binding+OptionalFallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+OptionalFallback.swift"; sourceTree = "<group>"; };
 		BFF8F849246FA10B0034DA9E /* SwiftUIPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -516,6 +520,8 @@
 				BF6F691E2471998B00658F64 /* Frameworks */,
 				BF6F69212471A44300658F64 /* ActivityIndicatorView.swift */,
 				BFF2C5AA2475CC6A0031B5C3 /* ShareSheetExampleView.swift */,
+				BFF2C5B1247648710031B5C3 /* ModalPickerView.swift */,
+				BFF2C5B324764EF40031B5C3 /* SelectionEffectView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -697,6 +703,7 @@
 				BF8502ED24715C8D0070D0F5 /* StepperExampleView.swift in Sources */,
 				BF8502D724714E630070D0F5 /* EditButtonExampleView.swift in Sources */,
 				BF90EB232471459200FCF16D /* PageViewController.swift in Sources */,
+				BFF2C5B424764EF40031B5C3 /* SelectionEffectView.swift in Sources */,
 				BFF8F851246FA10B0034DA9E /* ClipImageSquareView.swift in Sources */,
 				BF6F69222471A44300658F64 /* ActivityIndicatorView.swift in Sources */,
 				BF90EB222471459200FCF16D /* CategoryRow.swift in Sources */,
@@ -723,6 +730,7 @@
 				BFDBD5BE2470385A000B8CB5 /* DragGestureView.swift in Sources */,
 				BF90EB2E2471459200FCF16D /* Badge.swift in Sources */,
 				BFF8F872246FA8380034DA9E /* ConditionalDatePickerView.swift in Sources */,
+				BFF2C5B2247648710031B5C3 /* ModalPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
