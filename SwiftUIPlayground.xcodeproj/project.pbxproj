@@ -94,6 +94,7 @@
 		BFF2C5B2247648710031B5C3 /* ModalPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5B1247648710031B5C3 /* ModalPickerView.swift */; };
 		BFF2C5B424764EF40031B5C3 /* SelectionEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5B324764EF40031B5C3 /* SelectionEffectView.swift */; };
 		BFF2C5B8247715360031B5C3 /* ImageEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5B7247715360031B5C3 /* ImageEffectView.swift */; };
+		BFF2C5BB24771B1D0031B5C3 /* TextWithSettingExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5BA24771B1D0031B5C3 /* TextWithSettingExampleView.swift */; };
 		BFF732D424727655005B17A8 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF732D324727655005B17A8 /* TodoView.swift */; };
 		BFF732D6247277F6005B17A8 /* Binding+OptionalFallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF732D5247277F6005B17A8 /* Binding+OptionalFallback.swift */; };
 		BFF8F84D246FA10B0034DA9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F84C246FA10B0034DA9E /* AppDelegate.swift */; };
@@ -208,6 +209,7 @@
 		BFF2C5B1247648710031B5C3 /* ModalPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPickerView.swift; sourceTree = "<group>"; };
 		BFF2C5B324764EF40031B5C3 /* SelectionEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionEffectView.swift; sourceTree = "<group>"; };
 		BFF2C5B7247715360031B5C3 /* ImageEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEffectView.swift; sourceTree = "<group>"; };
+		BFF2C5BA24771B1D0031B5C3 /* TextWithSettingExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWithSettingExampleView.swift; sourceTree = "<group>"; };
 		BFF732D324727655005B17A8 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
 		BFF732D5247277F6005B17A8 /* Binding+OptionalFallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+OptionalFallback.swift"; sourceTree = "<group>"; };
 		BFF8F849246FA10B0034DA9E /* SwiftUIPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -533,6 +535,7 @@
 				BFF2C5AA2475CC6A0031B5C3 /* ShareSheetExampleView.swift */,
 				BFF2C5B1247648710031B5C3 /* ModalPickerView.swift */,
 				BFF2C5B324764EF40031B5C3 /* SelectionEffectView.swift */,
+				BFF2C5BA24771B1D0031B5C3 /* TextWithSettingExampleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -682,6 +685,7 @@
 				BFF8F878246FB5CA0034DA9E /* ColorCycleView.swift in Sources */,
 				BF90EB2C2471459200FCF16D /* BadgeSymbol.swift in Sources */,
 				BF90EB2A2471459200FCF16D /* MapView.swift in Sources */,
+				BFF2C5BB24771B1D0031B5C3 /* TextWithSettingExampleView.swift in Sources */,
 				BF90EACD24712D0200FCF16D /* Todo+CoreDataClass.swift in Sources */,
 				BF8502E5247159A70070D0F5 /* ListExampleView.swift in Sources */,
 				BF8502E3247159950070D0F5 /* DatePickerExampleView.swift in Sources */,
