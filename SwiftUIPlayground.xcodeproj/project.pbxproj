@@ -93,6 +93,7 @@
 		BFF2C5AD2475CE370031B5C3 /* SwiftUI+IfLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5AC2475CE370031B5C3 /* SwiftUI+IfLet.swift */; };
 		BFF2C5B2247648710031B5C3 /* ModalPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5B1247648710031B5C3 /* ModalPickerView.swift */; };
 		BFF2C5B424764EF40031B5C3 /* SelectionEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5B324764EF40031B5C3 /* SelectionEffectView.swift */; };
+		BFF2C5B8247715360031B5C3 /* ImageEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5B7247715360031B5C3 /* ImageEffectView.swift */; };
 		BFF732D424727655005B17A8 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF732D324727655005B17A8 /* TodoView.swift */; };
 		BFF732D6247277F6005B17A8 /* Binding+OptionalFallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF732D5247277F6005B17A8 /* Binding+OptionalFallback.swift */; };
 		BFF8F84D246FA10B0034DA9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F84C246FA10B0034DA9E /* AppDelegate.swift */; };
@@ -206,6 +207,7 @@
 		BFF2C5AC2475CE370031B5C3 /* SwiftUI+IfLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI+IfLet.swift"; sourceTree = "<group>"; };
 		BFF2C5B1247648710031B5C3 /* ModalPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPickerView.swift; sourceTree = "<group>"; };
 		BFF2C5B324764EF40031B5C3 /* SelectionEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionEffectView.swift; sourceTree = "<group>"; };
+		BFF2C5B7247715360031B5C3 /* ImageEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEffectView.swift; sourceTree = "<group>"; };
 		BFF732D324727655005B17A8 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
 		BFF732D5247277F6005B17A8 /* Binding+OptionalFallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+OptionalFallback.swift"; sourceTree = "<group>"; };
 		BFF8F849246FA10B0034DA9E /* SwiftUIPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -259,6 +261,7 @@
 		BF6F691E2471998B00658F64 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				BFF2C5B9247719A20031B5C3 /* Core Image */,
 				BFF732D2247275D1005B17A8 /* Core Data */,
 				BF6F691D2471998400658F64 /* Foundation */,
 				BFC77F31247507F6007AAE59 /* MessageUI */,
@@ -416,6 +419,14 @@
 				BFC77F3324751051007AAE59 /* LayoutSameHeightView.swift */,
 			);
 			path = Layout;
+			sourceTree = "<group>";
+		};
+		BFF2C5B9247719A20031B5C3 /* Core Image */ = {
+			isa = PBXGroup;
+			children = (
+				BFF2C5B7247715360031B5C3 /* ImageEffectView.swift */,
+			);
+			path = "Core Image";
 			sourceTree = "<group>";
 		};
 		BFF732D2247275D1005B17A8 /* Core Data */ = {
@@ -689,6 +700,7 @@
 				BF8502EB24715B4D0070D0F5 /* SliderExampleView.swift in Sources */,
 				BF90EB2F2471459200FCF16D /* LandmarkList.swift in Sources */,
 				BFF8F87C246FD8170034DA9E /* KeyboardAwareView.swift in Sources */,
+				BFF2C5B8247715360031B5C3 /* ImageEffectView.swift in Sources */,
 				BF90EB0B2471459200FCF16D /* Profile.swift in Sources */,
 				BFF732D6247277F6005B17A8 /* Binding+OptionalFallback.swift in Sources */,
 				BF90EB0E2471459200FCF16D /* Landmark.swift in Sources */,
