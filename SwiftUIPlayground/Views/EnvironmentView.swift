@@ -12,6 +12,7 @@ struct EnvironmentView: View {
     @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @Environment(\.font) var font
     @Environment(\.isEnabled) var isEnabled
+    @Environment(\.colorScheme) var colorScheme
 
     var body: some View {
         VStack(alignment: .leading) {
@@ -20,6 +21,7 @@ struct EnvironmentView: View {
             Text("horizontalSizeClass: \(String(describing: horizontalSizeClass))")
             Text("font: \(String(describing: font))")
             Text("isEnabled: \(String(describing: isEnabled))")
+            Text("colorScheme: \(String(describing: colorScheme))")
             Button("Example Button") {}
         }
         .environment(\.isEnabled, false)

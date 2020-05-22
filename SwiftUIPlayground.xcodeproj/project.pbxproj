@@ -94,7 +94,9 @@
 		BFF2C5B2247648710031B5C3 /* ModalPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5B1247648710031B5C3 /* ModalPickerView.swift */; };
 		BFF2C5B424764EF40031B5C3 /* SelectionEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5B324764EF40031B5C3 /* SelectionEffectView.swift */; };
 		BFF2C5B8247715360031B5C3 /* ImageEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5B7247715360031B5C3 /* ImageEffectView.swift */; };
-		BFF2C5BB24771B1D0031B5C3 /* TextWithSettingExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5BA24771B1D0031B5C3 /* TextWithSettingExampleView.swift */; };
+		BFF2C5BB24771B1D0031B5C3 /* UserDefaultsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5BA24771B1D0031B5C3 /* UserDefaultsExampleView.swift */; };
+		BFF2C5BD2477B09A0031B5C3 /* SimpleGridViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5BC2477B09A0031B5C3 /* SimpleGridViewExample.swift */; };
+		BFF2C5C12477B5740031B5C3 /* DarkModeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5C02477B5740031B5C3 /* DarkModeExampleView.swift */; };
 		BFF732D424727655005B17A8 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF732D324727655005B17A8 /* TodoView.swift */; };
 		BFF732D6247277F6005B17A8 /* Binding+OptionalFallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF732D5247277F6005B17A8 /* Binding+OptionalFallback.swift */; };
 		BFF8F84D246FA10B0034DA9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F84C246FA10B0034DA9E /* AppDelegate.swift */; };
@@ -209,7 +211,9 @@
 		BFF2C5B1247648710031B5C3 /* ModalPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPickerView.swift; sourceTree = "<group>"; };
 		BFF2C5B324764EF40031B5C3 /* SelectionEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionEffectView.swift; sourceTree = "<group>"; };
 		BFF2C5B7247715360031B5C3 /* ImageEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEffectView.swift; sourceTree = "<group>"; };
-		BFF2C5BA24771B1D0031B5C3 /* TextWithSettingExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextWithSettingExampleView.swift; sourceTree = "<group>"; };
+		BFF2C5BA24771B1D0031B5C3 /* UserDefaultsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExampleView.swift; sourceTree = "<group>"; };
+		BFF2C5BC2477B09A0031B5C3 /* SimpleGridViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGridViewExample.swift; sourceTree = "<group>"; };
+		BFF2C5C02477B5740031B5C3 /* DarkModeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeExampleView.swift; sourceTree = "<group>"; };
 		BFF732D324727655005B17A8 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
 		BFF732D5247277F6005B17A8 /* Binding+OptionalFallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+OptionalFallback.swift"; sourceTree = "<group>"; };
 		BFF8F849246FA10B0034DA9E /* SwiftUIPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -535,7 +539,9 @@
 				BFF2C5AA2475CC6A0031B5C3 /* ShareSheetExampleView.swift */,
 				BFF2C5B1247648710031B5C3 /* ModalPickerView.swift */,
 				BFF2C5B324764EF40031B5C3 /* SelectionEffectView.swift */,
-				BFF2C5BA24771B1D0031B5C3 /* TextWithSettingExampleView.swift */,
+				BFF2C5BA24771B1D0031B5C3 /* UserDefaultsExampleView.swift */,
+				BFF2C5BC2477B09A0031B5C3 /* SimpleGridViewExample.swift */,
+				BFF2C5C02477B5740031B5C3 /* DarkModeExampleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -685,7 +691,7 @@
 				BFF8F878246FB5CA0034DA9E /* ColorCycleView.swift in Sources */,
 				BF90EB2C2471459200FCF16D /* BadgeSymbol.swift in Sources */,
 				BF90EB2A2471459200FCF16D /* MapView.swift in Sources */,
-				BFF2C5BB24771B1D0031B5C3 /* TextWithSettingExampleView.swift in Sources */,
+				BFF2C5BB24771B1D0031B5C3 /* UserDefaultsExampleView.swift in Sources */,
 				BF90EACD24712D0200FCF16D /* Todo+CoreDataClass.swift in Sources */,
 				BF8502E5247159A70070D0F5 /* ListExampleView.swift in Sources */,
 				BF8502E3247159950070D0F5 /* DatePickerExampleView.swift in Sources */,
@@ -708,6 +714,7 @@
 				BF90EB0B2471459200FCF16D /* Profile.swift in Sources */,
 				BFF732D6247277F6005B17A8 /* Binding+OptionalFallback.swift in Sources */,
 				BF90EB0E2471459200FCF16D /* Landmark.swift in Sources */,
+				BFF2C5C12477B5740031B5C3 /* DarkModeExampleView.swift in Sources */,
 				BF13881F2475A07D0037D5B7 /* ProgrammaticNavigationExampleView.swift in Sources */,
 				BFC77F3424751051007AAE59 /* LayoutSameHeightView.swift in Sources */,
 				BF90EA8924710F2100FCF16D /* EnvironmentView.swift in Sources */,
@@ -743,6 +750,7 @@
 				BF90EB342471459200FCF16D /* HikeBadge.swift in Sources */,
 				BF6F691A24715E8300658F64 /* ToggleExampleView.swift in Sources */,
 				BFF8F876246FB0120034DA9E /* LinkedStateChangeView.swift in Sources */,
+				BFF2C5BD2477B09A0031B5C3 /* SimpleGridViewExample.swift in Sources */,
 				BFDBD5BE2470385A000B8CB5 /* DragGestureView.swift in Sources */,
 				BF90EB2E2471459200FCF16D /* Badge.swift in Sources */,
 				BFF8F872246FA8380034DA9E /* ConditionalDatePickerView.swift in Sources */,
