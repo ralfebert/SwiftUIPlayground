@@ -84,6 +84,7 @@
 		BF90EB372471459200FCF16D /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90EB092471459200FCF16D /* HikeView.swift */; };
 		BF90EB392471465200FCF16D /* ContactFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90EB382471465200FCF16D /* ContactFormView.swift */; };
 		BF95D98A2477F54600CB7895 /* AlertExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF95D9892477F54600CB7895 /* AlertExampleView.swift */; };
+		BF95D9B42478130000CB7895 /* CameraButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF95D9B32478130000CB7895 /* CameraButtonView.swift */; };
 		BFB9E441247303E300F4C7EE /* PlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB9E440247303E300F4C7EE /* PlaygroundView.swift */; };
 		BFC77F30247507D0007AAE59 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC77F2F247507D0007AAE59 /* MailView.swift */; };
 		BFC77F3424751051007AAE59 /* LayoutSameHeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC77F3324751051007AAE59 /* LayoutSameHeightView.swift */; };
@@ -205,6 +206,7 @@
 		BF90EB092471459200FCF16D /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 		BF90EB382471465200FCF16D /* ContactFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactFormView.swift; sourceTree = "<group>"; };
 		BF95D9892477F54600CB7895 /* AlertExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExampleView.swift; sourceTree = "<group>"; };
+		BF95D9B32478130000CB7895 /* CameraButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraButtonView.swift; sourceTree = "<group>"; };
 		BFB9E440247303E300F4C7EE /* PlaygroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundView.swift; sourceTree = "<group>"; };
 		BFC77F2F247507D0007AAE59 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
 		BFC77F3324751051007AAE59 /* LayoutSameHeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutSameHeightView.swift; sourceTree = "<group>"; };
@@ -551,6 +553,7 @@
 				BFF2C5C02477B5740031B5C3 /* DarkModeExampleView.swift */,
 				BFF2C5C22477E5F40031B5C3 /* CollectionViewExample.swift */,
 				BF95D9892477F54600CB7895 /* AlertExampleView.swift */,
+				BF95D9B32478130000CB7895 /* CameraButtonView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -757,6 +760,7 @@
 				BF8502D3247148AB0070D0F5 /* Date+Extensions.swift in Sources */,
 				BF6F6920247199AE00658F64 /* TodosURLSessionExampleView.swift in Sources */,
 				BF90EB0D2471459200FCF16D /* Hike.swift in Sources */,
+				BF95D9B42478130000CB7895 /* CameraButtonView.swift in Sources */,
 				BF6F691824715E0F00658F64 /* TextExampleView.swift in Sources */,
 				BF90EB342471459200FCF16D /* HikeBadge.swift in Sources */,
 				BF6F691A24715E8300658F64 /* ToggleExampleView.swift in Sources */,
