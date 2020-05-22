@@ -10,13 +10,22 @@ struct TodosView: View {
 
     var body: some View {
         NavigationView {
-            List(self.todos) { todo in
-                NavigationLink(destination: TodoView(todo: todo)) {
-                    Text(todo.name ?? "")
+            List {
+                ForEach(self.todos) { todo in
+                    NavigationLink(destination: TodoView(todo: todo)) {
+                        Text(todo.name ?? "")
+                    }
                 }
+                .onDelete(perform: deleteRows)
             }
             .navigationBarTitle("Todos", displayMode: .inline)
             .navigationBarItems(trailing: addButton)
+        }
+    }
+
+    func deleteRows(at offsets: IndexSet) {
+        for index in offsets {
+            self.managedObjectContext.delete(self.todos[index])
         }
     }
 

@@ -3,6 +3,8 @@
 
 import SwiftUI
 
+/// inspired by https://stackoverflow.com/questions/61313187/how-can-i-fit-a-shape-in-swift-ui-to-accommodate-the-length-and-width-of-a-text
+
 struct DarkModeExampleView: View {
     @Environment(\.colorScheme) var colorScheme
 
@@ -19,7 +21,7 @@ struct DarkModeExampleView: View {
                     }
                 }
             )
-            .buttonStyle(LightButtonStyle())
+            .buttonStyle(RoundedButtonStyle())
         }
         .navigationBarTitle("\(String(describing: colorScheme))")
     }
@@ -27,12 +29,12 @@ struct DarkModeExampleView: View {
 }
 
 /// Reusable Button style
-struct LightButtonStyle: ButtonStyle {
+struct RoundedButtonStyle: ButtonStyle {
     func makeBody(configuration: Self.Configuration) -> some View {
         ZStack {
             configuration.label
                 .font(.headline)
-                .padding(10)
+                .padding()
                 .background(RoundedRectangle(cornerRadius: 8).foregroundColor(Color("ButtonColor")))
         }
     }

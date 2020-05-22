@@ -9,16 +9,18 @@ import SwiftUI
 struct EnvironmentView: View {
     @Environment(\.locale) var locale
     @Environment(\.sizeCategory) var sizeCategory
-    @Environment(\.horizontalSizeClass) var horizontalSizeClass
     @Environment(\.font) var font
     @Environment(\.isEnabled) var isEnabled
     @Environment(\.colorScheme) var colorScheme
+    @Environment(\.verticalSizeClass) var verticalSizeClass: UserInterfaceSizeClass?
+    @Environment(\.horizontalSizeClass) var horizontalSizeClass: UserInterfaceSizeClass?
 
     var body: some View {
         VStack(alignment: .leading) {
             Text("Locale: \(String(describing: locale))")
             Text("Size category: \(String(describing: sizeCategory))")
             Text("horizontalSizeClass: \(String(describing: horizontalSizeClass))")
+            Text("verticalSizeClass: \(String(describing: horizontalSizeClass))")
             Text("font: \(String(describing: font))")
             Text("isEnabled: \(String(describing: isEnabled))")
             Text("colorScheme: \(String(describing: colorScheme))")
