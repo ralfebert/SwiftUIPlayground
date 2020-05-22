@@ -83,6 +83,7 @@
 		BF90EB362471459200FCF16D /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90EB082471459200FCF16D /* HexagonParameters.swift */; };
 		BF90EB372471459200FCF16D /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90EB092471459200FCF16D /* HikeView.swift */; };
 		BF90EB392471465200FCF16D /* ContactFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90EB382471465200FCF16D /* ContactFormView.swift */; };
+		BF95D98A2477F54600CB7895 /* AlertExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF95D9892477F54600CB7895 /* AlertExampleView.swift */; };
 		BFB9E441247303E300F4C7EE /* PlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB9E440247303E300F4C7EE /* PlaygroundView.swift */; };
 		BFC77F30247507D0007AAE59 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC77F2F247507D0007AAE59 /* MailView.swift */; };
 		BFC77F3424751051007AAE59 /* LayoutSameHeightView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC77F3324751051007AAE59 /* LayoutSameHeightView.swift */; };
@@ -97,6 +98,8 @@
 		BFF2C5BB24771B1D0031B5C3 /* UserDefaultsExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5BA24771B1D0031B5C3 /* UserDefaultsExampleView.swift */; };
 		BFF2C5BD2477B09A0031B5C3 /* SimpleGridViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5BC2477B09A0031B5C3 /* SimpleGridViewExample.swift */; };
 		BFF2C5C12477B5740031B5C3 /* DarkModeExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5C02477B5740031B5C3 /* DarkModeExampleView.swift */; };
+		BFF2C5C32477E5F40031B5C3 /* CollectionViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5C22477E5F40031B5C3 /* CollectionViewExample.swift */; };
+		BFF2C5C52477E6B70031B5C3 /* RelativePositionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5C42477E6B70031B5C3 /* RelativePositionExampleView.swift */; };
 		BFF732D424727655005B17A8 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF732D324727655005B17A8 /* TodoView.swift */; };
 		BFF732D6247277F6005B17A8 /* Binding+OptionalFallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF732D5247277F6005B17A8 /* Binding+OptionalFallback.swift */; };
 		BFF8F84D246FA10B0034DA9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F84C246FA10B0034DA9E /* AppDelegate.swift */; };
@@ -201,6 +204,7 @@
 		BF90EB082471459200FCF16D /* HexagonParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		BF90EB092471459200FCF16D /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 		BF90EB382471465200FCF16D /* ContactFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactFormView.swift; sourceTree = "<group>"; };
+		BF95D9892477F54600CB7895 /* AlertExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExampleView.swift; sourceTree = "<group>"; };
 		BFB9E440247303E300F4C7EE /* PlaygroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundView.swift; sourceTree = "<group>"; };
 		BFC77F2F247507D0007AAE59 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
 		BFC77F3324751051007AAE59 /* LayoutSameHeightView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LayoutSameHeightView.swift; sourceTree = "<group>"; };
@@ -214,6 +218,8 @@
 		BFF2C5BA24771B1D0031B5C3 /* UserDefaultsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsExampleView.swift; sourceTree = "<group>"; };
 		BFF2C5BC2477B09A0031B5C3 /* SimpleGridViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleGridViewExample.swift; sourceTree = "<group>"; };
 		BFF2C5C02477B5740031B5C3 /* DarkModeExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkModeExampleView.swift; sourceTree = "<group>"; };
+		BFF2C5C22477E5F40031B5C3 /* CollectionViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewExample.swift; sourceTree = "<group>"; };
+		BFF2C5C42477E6B70031B5C3 /* RelativePositionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RelativePositionExampleView.swift; sourceTree = "<group>"; };
 		BFF732D324727655005B17A8 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
 		BFF732D5247277F6005B17A8 /* Binding+OptionalFallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+OptionalFallback.swift"; sourceTree = "<group>"; };
 		BFF8F849246FA10B0034DA9E /* SwiftUIPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -423,6 +429,7 @@
 			isa = PBXGroup;
 			children = (
 				BFC77F3324751051007AAE59 /* LayoutSameHeightView.swift */,
+				BFF2C5C42477E6B70031B5C3 /* RelativePositionExampleView.swift */,
 			);
 			path = Layout;
 			sourceTree = "<group>";
@@ -542,6 +549,8 @@
 				BFF2C5BA24771B1D0031B5C3 /* UserDefaultsExampleView.swift */,
 				BFF2C5BC2477B09A0031B5C3 /* SimpleGridViewExample.swift */,
 				BFF2C5C02477B5740031B5C3 /* DarkModeExampleView.swift */,
+				BFF2C5C22477E5F40031B5C3 /* CollectionViewExample.swift */,
+				BF95D9892477F54600CB7895 /* AlertExampleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -682,6 +691,7 @@
 				BFF8F84F246FA10B0034DA9E /* SceneDelegate.swift in Sources */,
 				BFC77F30247507D0007AAE59 /* MailView.swift in Sources */,
 				BF8502D524714A580070D0F5 /* AllWidgetsView.swift in Sources */,
+				BF95D98A2477F54600CB7895 /* AlertExampleView.swift in Sources */,
 				BF90EB2B2471459200FCF16D /* CircleImage.swift in Sources */,
 				BF8502E1247159800070D0F5 /* ButtonExampleView.swift in Sources */,
 				BF90EB292471459200FCF16D /* RotatedBadgeSymbol.swift in Sources */,
@@ -734,6 +744,7 @@
 				BF90EB322471459200FCF16D /* GraphCapsule.swift in Sources */,
 				BF90EA922471297100FCF16D /* AccountView.swift in Sources */,
 				BF90EB0C2471459200FCF16D /* UserData.swift in Sources */,
+				BFF2C5C32477E5F40031B5C3 /* CollectionViewExample.swift in Sources */,
 				BF8502E724715A960070D0F5 /* TextFieldExampleView.swift in Sources */,
 				BF6F691C24716BB000658F64 /* ImageExampleView.swift in Sources */,
 				BF90EA87247041DF00FCF16D /* SwiftUISwitchView.swift in Sources */,
@@ -752,6 +763,7 @@
 				BFF8F876246FB0120034DA9E /* LinkedStateChangeView.swift in Sources */,
 				BFF2C5BD2477B09A0031B5C3 /* SimpleGridViewExample.swift in Sources */,
 				BFDBD5BE2470385A000B8CB5 /* DragGestureView.swift in Sources */,
+				BFF2C5C52477E6B70031B5C3 /* RelativePositionExampleView.swift in Sources */,
 				BF90EB2E2471459200FCF16D /* Badge.swift in Sources */,
 				BFF8F872246FA8380034DA9E /* ConditionalDatePickerView.swift in Sources */,
 				BFF2C5B2247648710031B5C3 /* ModalPickerView.swift in Sources */,
