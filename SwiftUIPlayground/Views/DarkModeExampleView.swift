@@ -8,22 +8,33 @@ struct DarkModeExampleView: View {
 
     var body: some View {
         VStack {
-            Button("Hello") {
-                print("button tapped")
-            }
+            Button(
+                action: {
+                    print("Button Tapped")
+                },
+                label: {
+                    HStack {
+                        Image(systemName: "tag.fill")
+                        Text("Tickets")
+                    }
+                }
+            )
             .buttonStyle(LightButtonStyle())
-
-            Text("\(String(describing: colorScheme))")
         }
+        .navigationBarTitle("\(String(describing: colorScheme))")
     }
+
 }
 
 /// Reusable Button style
 struct LightButtonStyle: ButtonStyle {
     func makeBody(configuration: Self.Configuration) -> some View {
-        configuration.label
-            .padding(10)
-            .border(Color("ButtonBorder"))
+        ZStack {
+            configuration.label
+                .font(.headline)
+                .padding(10)
+                .background(RoundedRectangle(cornerRadius: 8).foregroundColor(Color("ButtonColor")))
+        }
     }
 }
 
