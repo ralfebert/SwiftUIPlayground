@@ -5,19 +5,27 @@ import SwiftUI
 
 struct ButtonExampleView: View {
 
-    @State var text = "Button"
+    @State var count = 0
 
     var body: some View {
         VStack(spacing: 10.0) {
-            Button(text) {
-                self.text += "!"
+            Button("Button was tapped \(count) times") {
+                self.count += 1
             }
 
             Button(
                 action: {
-                    self.text += "!"
+                    self.count += 1
                 }, label: {
-                    Text(self.text)
+                    Text("Another Button")
+                }
+            )
+
+            Button(
+                action: {
+                    self.count += 1
+                }, label: {
+                    Image(systemName: "sun.max")
                 }
             )
         }

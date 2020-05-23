@@ -10,7 +10,9 @@ struct AllWidgetsView: View {
             Form {
                 Group {
                     Section(header: Text("Button")) {
-                        ButtonExampleView()
+                        NavigationLink(destination: ButtonExampleView()) {
+                            Text("Button Example")
+                        }
                     }
                     Section(header: Text("DatePicker")) {
                         DatePickerExampleView()
@@ -75,6 +77,7 @@ struct AllWidgetsView: View {
             }
             .navigationBarTitle("All Widgets")
         }
+        .navigationViewStyle(StackNavigationViewStyle())
     }
 
 }
