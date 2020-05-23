@@ -46,15 +46,13 @@ struct RoundedButtonStyle: ButtonStyle {
 struct DarkModeExampleView_Previews: PreviewProvider {
     static var previews: some View {
         Group {
-            NavigationView {
-                DarkModeExampleView()
+            ForEach([ColorScheme.light, .dark], id: \.self) { colorScheme in
+                NavigationView {
+                    DarkModeExampleView()
+                }
+                .environment(\.colorScheme, colorScheme)
             }
-            .environment(\.colorScheme, .light)
 
-            NavigationView {
-                DarkModeExampleView()
-            }
-            .environment(\.colorScheme, .dark)
         }
     }
 }

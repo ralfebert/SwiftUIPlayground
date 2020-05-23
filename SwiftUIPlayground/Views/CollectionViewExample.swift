@@ -4,7 +4,8 @@
 import SwiftUI
 import UIKit
 
-/// see https://stackoverflow.com/questions/61952997/uicollectionview-with-swiftui-drag-and-drop-reordering-possible
+/// inspired by https://stackoverflow.com/questions/61952997/uicollectionview-with-swiftui-drag-and-drop-reordering-possible
+/// see also https://stackoverflow.com/questions/61033980/swiftui-wrapping-uicollectionview-and-use-compositional-layout
 struct CollectionViewExample: View {
     var body: some View {
         CollectionComponent()
@@ -37,13 +38,6 @@ struct CollectionComponent: UIViewRepresentable {
             return cell
         }
 
-        func collectionView(_ collectionView: UICollectionView, canMoveItemAt indexPath: IndexPath) -> Bool {
-            true
-        }
-
-        func collectionView(_ collectionView: UICollectionView, moveItemAt sourceIndexPath: IndexPath, to destinationIndexPath: IndexPath) {
-            print("Changing the cell order, moving: \(sourceIndexPath.row) to \(destinationIndexPath.row)")
-        }
     }
 
     func makeUIView(context: Context) -> UICollectionView {
@@ -54,31 +48,10 @@ struct CollectionComponent: UIViewRepresentable {
         layout.sectionInset = UIEdgeInsets(top: 20, left: 20, bottom: 20, right: 20)
 
         let collectionView = UICollectionView(frame: .zero, collectionViewLayout: layout)
-        collectionView.backgroundColor = .white
+        collectionView.backgroundColor = .systemBackground
         collectionView.dataSource = context.coordinator
         collectionView.delegate = context.coordinator
         collectionView.register(Cell.self, forCellWithReuseIdentifier: "cell")
-
-        let longPressGesture = UILongPressGestureRecognizer(target: self, action: Selector(("handleLongGesture:")))
-        collectionView.addGestureRecognizer(longPressGesture)
-
-        func handleLongGesture(gesture: UILongPressGestureRecognizer) {
-
-            switch gesture.state {
-
-            case UIGestureRecognizerState.began:
-                guard let selectedIndexPath = collectionView.indexPathForItem(at: gesture.location(in: collectionView)) else {
-                    break
-                }
-                collectionView.beginInteractiveMovementForItem(at: selectedIndexPath)
-            case UIGestureRecognizerState.changed:
-                collectionView.updateInteractiveMovementTargetPosition(gesture.location(in: gesture.view!))
-            case UIGestureRecognizerState.ended:
-                collectionView.endInteractiveMovement()
-            default:
-                collectionView.cancelInteractiveMovement()
-            }
-        }
 
         return collectionView
     }
