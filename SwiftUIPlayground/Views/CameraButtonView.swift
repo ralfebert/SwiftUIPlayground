@@ -5,33 +5,35 @@ import SwiftUI
 
 struct CameraButtonView: View {
 
-    @State var recording = true
+    @State var recording = false
+    var action: ((_ recording: Bool) -> Void)?
 
     var body: some View {
 
         ZStack {
             Circle()
-                .stroke(lineWidth: 8)
+                .stroke(lineWidth: 6)
                 .foregroundColor(.white)
                 .frame(width: 65, height: 65)
 
-            RoundedRectangle(cornerRadius: recording ? self.innerCircleWidth / 2 : 8)
+            RoundedRectangle(cornerRadius: recording ? 8 : self.innerCircleWidth / 2)
                 .foregroundColor(.white)
                 .frame(width: self.innerCircleWidth, height: self.innerCircleWidth)
 
         }
         .animation(.linear(duration: 0.2))
-        .padding()
+        .padding(20)
         .onTapGesture {
             withAnimation {
                 self.recording.toggle()
+                self.action?(self.recording)
             }
         }
 
     }
 
     var innerCircleWidth: CGFloat {
-        recording ? 52 : 32
+        self.recording ? 32 : 55
     }
 }
 
@@ -41,10 +43,12 @@ struct CameraButtonView_Previews: PreviewProvider {
 
             CameraButtonView(recording: false)
                 .previewLayout(PreviewLayout.sizeThatFits)
+                .previewDisplayName("not recording")
                 .background(Color.gray)
 
             CameraButtonView(recording: true)
                 .previewLayout(PreviewLayout.sizeThatFits)
+                .previewDisplayName("recording")
                 .background(Color.gray)
 
             ZStack {

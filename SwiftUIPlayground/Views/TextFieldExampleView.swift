@@ -5,16 +5,28 @@ import SwiftUI
 
 struct TextFieldExampleView: View {
 
-    @State var value = "123"
+    @State var value = "ABC"
+    @State var numberValue: Int = 123
 
     var body: some View {
-        VStack {
-            Text("TextField")
-            TextField("Value", text: $value)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
-            Text("SecureField")
-            SecureField("Value", text: $value)
-                .textFieldStyle(RoundedBorderTextFieldStyle())
+        VStack(spacing: 20) {
+            VStack(alignment: .leading) {
+                Text("TextField")
+                TextField("Value", text: $value)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+            }
+
+            VStack(alignment: .leading) {
+                Text("TextField with formatter")
+                TextField("Number value", value: $numberValue, formatter: NumberFormatter())
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+            }
+
+            VStack(alignment: .leading) {
+                Text("SecureField")
+                SecureField("Value", text: $value)
+                    .textFieldStyle(RoundedBorderTextFieldStyle())
+            }
         }
     }
 }

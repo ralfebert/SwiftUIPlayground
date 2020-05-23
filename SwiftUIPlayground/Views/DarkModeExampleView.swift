@@ -34,8 +34,11 @@ struct RoundedButtonStyle: ButtonStyle {
         ZStack {
             configuration.label
                 .font(.headline)
-                .padding()
-                .background(RoundedRectangle(cornerRadius: 8).foregroundColor(Color("ButtonColor")))
+                .padding(EdgeInsets(top: 8, leading: 12, bottom: 8, trailing: 12))
+                .background(
+                    LinearGradient(gradient: Gradient(colors: [Color("ButtonColor"), Color("ButtonColorGradient")]), startPoint: .top, endPoint: .bottom)
+                        .clipShape(RoundedRectangle(cornerRadius: 8))
+                )
         }
     }
 }

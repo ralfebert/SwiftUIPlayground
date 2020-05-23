@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		BF13881F2475A07D0037D5B7 /* ProgrammaticNavigationExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF13881E2475A07D0037D5B7 /* ProgrammaticNavigationExampleView.swift */; };
+		BF1C7A662478F51800046F70 /* StateExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C7A652478F51800046F70 /* StateExampleView.swift */; };
+		BF1C7A692478F59800046F70 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = BF1C7A682478F59800046F70 /* CodeScanner */; };
+		BF1C7A6B2478F5AC00046F70 /* QRCodeScannerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C7A6A2478F5AC00046F70 /* QRCodeScannerExampleView.swift */; };
 		BF6F691824715E0F00658F64 /* TextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F691724715E0F00658F64 /* TextExampleView.swift */; };
 		BF6F691A24715E8300658F64 /* ToggleExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F691924715E8300658F64 /* ToggleExampleView.swift */; };
 		BF6F691C24716BB000658F64 /* ImageExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F691B24716BB000658F64 /* ImageExampleView.swift */; };
@@ -131,6 +134,8 @@
 
 /* Begin PBXFileReference section */
 		BF13881E2475A07D0037D5B7 /* ProgrammaticNavigationExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticNavigationExampleView.swift; sourceTree = "<group>"; };
+		BF1C7A652478F51800046F70 /* StateExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExampleView.swift; sourceTree = "<group>"; };
+		BF1C7A6A2478F5AC00046F70 /* QRCodeScannerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerExampleView.swift; sourceTree = "<group>"; };
 		BF6F691724715E0F00658F64 /* TextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleView.swift; sourceTree = "<group>"; };
 		BF6F691924715E8300658F64 /* ToggleExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleExampleView.swift; sourceTree = "<group>"; };
 		BF6F691B24716BB000658F64 /* ImageExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExampleView.swift; sourceTree = "<group>"; };
@@ -251,6 +256,7 @@
 			files = (
 				BFDBD5BC246FEAB0000B8CB5 /* KeyboardAware in Frameworks */,
 				BF90EA90247125B200FCF16D /* ImagePickerView in Frameworks */,
+				BF1C7A692478F59800046F70 /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -554,6 +560,8 @@
 				BFF2C5C22477E5F40031B5C3 /* CollectionViewExample.swift */,
 				BF95D9892477F54600CB7895 /* AlertExampleView.swift */,
 				BF95D9B32478130000CB7895 /* CameraButtonView.swift */,
+				BF1C7A652478F51800046F70 /* StateExampleView.swift */,
+				BF1C7A6A2478F5AC00046F70 /* QRCodeScannerExampleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -577,6 +585,7 @@
 			packageProductDependencies = (
 				BFDBD5BB246FEAB0000B8CB5 /* KeyboardAware */,
 				BF90EA8F247125B200FCF16D /* ImagePickerView */,
+				BF1C7A682478F59800046F70 /* CodeScanner */,
 			);
 			productName = SwiftUIPlayground;
 			productReference = BFF8F849246FA10B0034DA9E /* SwiftUIPlayground.app */;
@@ -631,6 +640,7 @@
 			packageReferences = (
 				BFDBD5BA246FEAB0000B8CB5 /* XCRemoteSwiftPackageReference "KeyboardAwareSwiftUI" */,
 				BF90EA8E247125B200FCF16D /* XCRemoteSwiftPackageReference "ImagePickerView" */,
+				BF1C7A672478F59800046F70 /* XCRemoteSwiftPackageReference "CodeScanner" */,
 			);
 			productRefGroup = BFF8F84A246FA10B0034DA9E /* Products */;
 			projectDirPath = "";
@@ -709,8 +719,10 @@
 				BF8502E5247159A70070D0F5 /* ListExampleView.swift in Sources */,
 				BF8502E3247159950070D0F5 /* DatePickerExampleView.swift in Sources */,
 				BF90EB262471459200FCF16D /* ProfileEditor.swift in Sources */,
+				BF1C7A6B2478F5AC00046F70 /* QRCodeScannerExampleView.swift in Sources */,
 				BFB9E441247303E300F4C7EE /* PlaygroundView.swift in Sources */,
 				BF90EB242471459200FCF16D /* PageView.swift in Sources */,
+				BF1C7A662478F51800046F70 /* StateExampleView.swift in Sources */,
 				BFC77F3624752FBA007AAE59 /* OptionalsExampleView.swift in Sources */,
 				BF90EB212471459200FCF16D /* Home.swift in Sources */,
 				BF90EB282471459200FCF16D /* FeatureCard.swift in Sources */,
@@ -1035,6 +1047,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
+		BF1C7A672478F59800046F70 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.6;
+			};
+		};
 		BF90EA8E247125B200FCF16D /* XCRemoteSwiftPackageReference "ImagePickerView" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/ralfebert/ImagePickerView.git";
@@ -1054,6 +1074,11 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
+		BF1C7A682478F59800046F70 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = BF1C7A672478F59800046F70 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
 		BF90EA8F247125B200FCF16D /* ImagePickerView */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = BF90EA8E247125B200FCF16D /* XCRemoteSwiftPackageReference "ImagePickerView" */;
