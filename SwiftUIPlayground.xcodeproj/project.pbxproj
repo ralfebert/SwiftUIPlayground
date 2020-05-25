@@ -11,6 +11,7 @@
 		BF1C7A662478F51800046F70 /* StateExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C7A652478F51800046F70 /* StateExampleView.swift */; };
 		BF1C7A692478F59800046F70 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = BF1C7A682478F59800046F70 /* CodeScanner */; };
 		BF1C7A6B2478F5AC00046F70 /* QRCodeScannerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C7A6A2478F5AC00046F70 /* QRCodeScannerExampleView.swift */; };
+		BF460C5B247BA792009D3AE2 /* PencilKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF460C5A247BA792009D3AE2 /* PencilKitView.swift */; };
 		BF6F691824715E0F00658F64 /* TextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F691724715E0F00658F64 /* TextExampleView.swift */; };
 		BF6F691A24715E8300658F64 /* ToggleExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F691924715E8300658F64 /* ToggleExampleView.swift */; };
 		BF6F691C24716BB000658F64 /* ImageExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F691B24716BB000658F64 /* ImageExampleView.swift */; };
@@ -136,6 +137,7 @@
 		BF13881E2475A07D0037D5B7 /* ProgrammaticNavigationExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticNavigationExampleView.swift; sourceTree = "<group>"; };
 		BF1C7A652478F51800046F70 /* StateExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExampleView.swift; sourceTree = "<group>"; };
 		BF1C7A6A2478F5AC00046F70 /* QRCodeScannerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerExampleView.swift; sourceTree = "<group>"; };
+		BF460C5A247BA792009D3AE2 /* PencilKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitView.swift; sourceTree = "<group>"; };
 		BF6F691724715E0F00658F64 /* TextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleView.swift; sourceTree = "<group>"; };
 		BF6F691924715E8300658F64 /* ToggleExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleExampleView.swift; sourceTree = "<group>"; };
 		BF6F691B24716BB000658F64 /* ImageExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExampleView.swift; sourceTree = "<group>"; };
@@ -270,6 +272,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BF460C5C247BA7B4009D3AE2 /* PencilKit */ = {
+			isa = PBXGroup;
+			children = (
+				BF460C5A247BA792009D3AE2 /* PencilKitView.swift */,
+			);
+			path = PencilKit;
+			sourceTree = "<group>";
+		};
 		BF6F691D2471998400658F64 /* Foundation */ = {
 			isa = PBXGroup;
 			children = (
@@ -281,10 +291,11 @@
 		BF6F691E2471998B00658F64 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BFF2C5B9247719A20031B5C3 /* Core Image */,
 				BFF732D2247275D1005B17A8 /* Core Data */,
+				BFF2C5B9247719A20031B5C3 /* Core Image */,
 				BF6F691D2471998400658F64 /* Foundation */,
 				BFC77F31247507F6007AAE59 /* MessageUI */,
+				BF460C5C247BA7B4009D3AE2 /* PencilKit */,
 			);
 			path = Frameworks;
 			sourceTree = "<group>";
@@ -713,6 +724,7 @@
 				BF8502D92471532A0070D0F5 /* MainView.swift in Sources */,
 				BFF8F878246FB5CA0034DA9E /* ColorCycleView.swift in Sources */,
 				BF90EB2C2471459200FCF16D /* BadgeSymbol.swift in Sources */,
+				BF460C5B247BA792009D3AE2 /* PencilKitView.swift in Sources */,
 				BF90EB2A2471459200FCF16D /* MapView.swift in Sources */,
 				BFF2C5BB24771B1D0031B5C3 /* UserDefaultsExampleView.swift in Sources */,
 				BF90EACD24712D0200FCF16D /* Todo+CoreDataClass.swift in Sources */,
