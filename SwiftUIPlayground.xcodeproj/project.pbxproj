@@ -11,6 +11,7 @@
 		BF1C7A662478F51800046F70 /* StateExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C7A652478F51800046F70 /* StateExampleView.swift */; };
 		BF1C7A692478F59800046F70 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = BF1C7A682478F59800046F70 /* CodeScanner */; };
 		BF1C7A6B2478F5AC00046F70 /* QRCodeScannerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C7A6A2478F5AC00046F70 /* QRCodeScannerExampleView.swift */; };
+		BF405753247C0F5B00FEA7D8 /* EditableListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF405752247C0F5B00FEA7D8 /* EditableListExample.swift */; };
 		BF460C5B247BA792009D3AE2 /* PencilKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF460C5A247BA792009D3AE2 /* PencilKitView.swift */; };
 		BF6F691824715E0F00658F64 /* TextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F691724715E0F00658F64 /* TextExampleView.swift */; };
 		BF6F691A24715E8300658F64 /* ToggleExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F691924715E8300658F64 /* ToggleExampleView.swift */; };
@@ -137,6 +138,7 @@
 		BF13881E2475A07D0037D5B7 /* ProgrammaticNavigationExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticNavigationExampleView.swift; sourceTree = "<group>"; };
 		BF1C7A652478F51800046F70 /* StateExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExampleView.swift; sourceTree = "<group>"; };
 		BF1C7A6A2478F5AC00046F70 /* QRCodeScannerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerExampleView.swift; sourceTree = "<group>"; };
+		BF405752247C0F5B00FEA7D8 /* EditableListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableListExample.swift; sourceTree = "<group>"; };
 		BF460C5A247BA792009D3AE2 /* PencilKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitView.swift; sourceTree = "<group>"; };
 		BF6F691724715E0F00658F64 /* TextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleView.swift; sourceTree = "<group>"; };
 		BF6F691924715E8300658F64 /* ToggleExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleExampleView.swift; sourceTree = "<group>"; };
@@ -573,6 +575,7 @@
 				BF95D9B32478130000CB7895 /* CameraButtonView.swift */,
 				BF1C7A652478F51800046F70 /* StateExampleView.swift */,
 				BF1C7A6A2478F5AC00046F70 /* QRCodeScannerExampleView.swift */,
+				BF405752247C0F5B00FEA7D8 /* EditableListExample.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -760,6 +763,7 @@
 				BF8502DF247157EA0070D0F5 /* ScrollViewExample.swift in Sources */,
 				BF90EB352471459200FCF16D /* HikeDetail.swift in Sources */,
 				BF90EB312471459200FCF16D /* LandmarkRow.swift in Sources */,
+				BF405753247C0F5B00FEA7D8 /* EditableListExample.swift in Sources */,
 				BF8502ED24715C8D0070D0F5 /* StepperExampleView.swift in Sources */,
 				BF8502D724714E630070D0F5 /* EditButtonExampleView.swift in Sources */,
 				BF90EB232471459200FCF16D /* PageViewController.swift in Sources */,

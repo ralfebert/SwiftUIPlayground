@@ -34,6 +34,8 @@ struct ListExampleView: View {
                 List(contactsArray) { contact in
                     Text(contact.name)
                 })
+            NavigationLink("Editable List with Binding", destination:
+                EditableListExample())
         }
     }
 }
