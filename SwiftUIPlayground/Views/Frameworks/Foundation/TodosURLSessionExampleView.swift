@@ -78,26 +78,25 @@ struct StatusOverlay: View {
 
     @ObservedObject var model: TodosModel
 
+    @ViewBuilder
     var body: some View {
         switch model.state {
         case .ready:
-            return AnyView(EmptyView())
+            EmptyView()
         case .loading:
-            return AnyView(ActivityIndicatorView(isAnimating: .constant(true), style: .large))
+            ActivityIndicatorView(isAnimating: .constant(true), style: .large)
         case .loaded:
-            return AnyView(EmptyView())
+            EmptyView()
         case let .error(error):
-            return AnyView(
-                VStack(spacing: 10) {
-                    Text(error.localizedDescription)
-                        .frame(maxWidth: 300)
-                    Button("Retry") {
-                        self.model.load()
-                    }
+            VStack(spacing: 10) {
+                Text(error.localizedDescription)
+                    .frame(maxWidth: 300)
+                Button("Retry") {
+                    self.model.load()
                 }
-                .padding()
-                .background(Color.yellow)
-            )
+            }
+            .padding()
+            .background(Color.yellow)
         }
     }
 

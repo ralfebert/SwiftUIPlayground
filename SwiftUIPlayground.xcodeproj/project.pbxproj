@@ -108,8 +108,7 @@
 		BFF2C5C52477E6B70031B5C3 /* RelativePositionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5C42477E6B70031B5C3 /* RelativePositionExampleView.swift */; };
 		BFF732D424727655005B17A8 /* TodoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF732D324727655005B17A8 /* TodoView.swift */; };
 		BFF732D6247277F6005B17A8 /* Binding+OptionalFallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF732D5247277F6005B17A8 /* Binding+OptionalFallback.swift */; };
-		BFF8F84D246FA10B0034DA9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F84C246FA10B0034DA9E /* AppDelegate.swift */; };
-		BFF8F84F246FA10B0034DA9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F84E246FA10B0034DA9E /* SceneDelegate.swift */; };
+		BFF8F84D246FA10B0034DA9E /* SwiftUIPlayground.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F84C246FA10B0034DA9E /* SwiftUIPlayground.swift */; };
 		BFF8F851246FA10B0034DA9E /* ClipImageSquareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F850246FA10B0034DA9E /* ClipImageSquareView.swift */; };
 		BFF8F853246FA10D0034DA9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF8F852246FA10D0034DA9E /* Assets.xcassets */; };
 		BFF8F856246FA10D0034DA9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF8F855246FA10D0034DA9E /* Preview Assets.xcassets */; };
@@ -234,8 +233,7 @@
 		BFF732D324727655005B17A8 /* TodoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoView.swift; sourceTree = "<group>"; };
 		BFF732D5247277F6005B17A8 /* Binding+OptionalFallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binding+OptionalFallback.swift"; sourceTree = "<group>"; };
 		BFF8F849246FA10B0034DA9E /* SwiftUIPlayground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIPlayground.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFF8F84C246FA10B0034DA9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BFF8F84E246FA10B0034DA9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BFF8F84C246FA10B0034DA9E /* SwiftUIPlayground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPlayground.swift; sourceTree = "<group>"; };
 		BFF8F850246FA10B0034DA9E /* ClipImageSquareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipImageSquareView.swift; sourceTree = "<group>"; };
 		BFF8F852246FA10D0034DA9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BFF8F855246FA10D0034DA9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -495,8 +493,7 @@
 		BFF8F84B246FA10B0034DA9E /* SwiftUIPlayground */ = {
 			isa = PBXGroup;
 			children = (
-				BFF8F84C246FA10B0034DA9E /* AppDelegate.swift */,
-				BFF8F84E246FA10B0034DA9E /* SceneDelegate.swift */,
+				BFF8F84C246FA10B0034DA9E /* SwiftUIPlayground.swift */,
 				BFF8F852246FA10D0034DA9E /* Assets.xcassets */,
 				BFF8F857246FA10D0034DA9E /* LaunchScreen.storyboard */,
 				BFF8F85A246FA10D0034DA9E /* Info.plist */,
@@ -712,10 +709,9 @@
 				BFF8F874246FABD90034DA9E /* SizedUIViewRepresentableView.swift in Sources */,
 				BF90EB332471459200FCF16D /* HikeGraph.swift in Sources */,
 				BFF732D424727655005B17A8 /* TodoView.swift in Sources */,
-				BFF8F84D246FA10B0034DA9E /* AppDelegate.swift in Sources */,
+				BFF8F84D246FA10B0034DA9E /* SwiftUIPlayground.swift in Sources */,
 				BF90EB252471459200FCF16D /* ProfileSummary.swift in Sources */,
 				BF90EA8D247121B200FCF16D /* ImagePickerView.swift in Sources */,
-				BFF8F84F246FA10B0034DA9E /* SceneDelegate.swift in Sources */,
 				BFC77F30247507D0007AAE59 /* MailView.swift in Sources */,
 				BF8502D524714A580070D0F5 /* AllWidgetsView.swift in Sources */,
 				BF95D98A2477F54600CB7895 /* AlertExampleView.swift in Sources */,
@@ -882,7 +878,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -936,7 +932,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
