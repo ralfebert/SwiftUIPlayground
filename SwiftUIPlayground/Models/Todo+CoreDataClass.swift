@@ -5,7 +5,7 @@ import CoreData
 import Foundation
 
 @objc(Todo)
-public class Todo: NSManagedObject, Identifiable {
+public class Todo: NSManagedObject {
 
     static var allTodos: NSFetchRequest<Todo> {
         let request: NSFetchRequest<Todo> = Todo.fetchRequest()

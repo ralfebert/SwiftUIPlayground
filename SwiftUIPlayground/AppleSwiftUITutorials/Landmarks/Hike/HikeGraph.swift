@@ -8,10 +8,11 @@
 import SwiftUI
 
 func rangeOfRanges<C: Collection>(_ ranges: C) -> Range<Double>
-    where C.Element == Range<Double> {
+    where C.Element == Range<Double>
+{
     guard !ranges.isEmpty else { return 0 ..< 0 }
-    let low = ranges.lazy.map { $0.lowerBound }.min()!
-    let high = ranges.lazy.map { $0.upperBound }.max()!
+    let low = ranges.lazy.map(\.lowerBound).min()!
+    let high = ranges.lazy.map(\.upperBound).max()!
     return low ..< high
 }
 

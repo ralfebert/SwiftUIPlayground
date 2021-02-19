@@ -3,38 +3,56 @@
 
 import SwiftUI
 
-struct PickerExampleView: View {
+enum Weather: CaseIterable {
+    case sunny
+    case cloudy
+    case rainy
+}
 
-    enum Weather {
-        case sunny
-        case cloudy
-        case rainy
+extension Weather {
+
+    var image: Image {
+        switch self {
+
+        case .sunny:
+            return Image(systemName: "sun.max")
+        case .cloudy:
+            return Image(systemName: "cloud")
+        case .rainy:
+            return Image(systemName: "cloud.rain")
+        }
     }
+
+}
+
+struct PickerExampleView: View {
 
     @State var selection = Weather.sunny
 
     var body: some View {
-        VStack {
-            Picker(selection: $selection, label:
-                Text("Weather"),
-                   content: {
-                    Image(systemName: "sun.max").tag(Weather.sunny)
-                    Image(systemName: "cloud").tag(Weather.cloudy)
-                    Image(systemName: "cloud.rain").tag(Weather.rainy)
-            })
+        Section {
+            self.examplePicker
+        }
 
-            Picker(selection: $selection, label:
-                Text("Weather"),
-                   content: {
-                    Image(systemName: "sun.max").tag(Weather.sunny)
-                    Image(systemName: "cloud").tag(Weather.cloudy)
-                    Image(systemName: "cloud.rain").tag(Weather.rainy)
-            })
+        Section {
+            self.examplePicker
                 .pickerStyle(SegmentedPickerStyle())
-
         }
         .padding()
     }
+
+    var examplePicker: some View {
+        Picker(
+            selection: $selection,
+            label: Text("Weather"),
+            content: {
+                ForEach(Weather.allCases, id: \.self) { weather in
+                    weather.image.tag(weather)
+                }
+            }
+        )
+    }
+
 }
 
 struct PickerExampleView_Previews: PreviewProvider {

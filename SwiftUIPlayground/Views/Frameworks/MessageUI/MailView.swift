@@ -16,7 +16,8 @@ struct MailView: UIViewControllerRepresentable {
         @Binding var result: Result<MFMailComposeResult, Error>?
 
         init(isShowing: Binding<Bool>,
-             result: Binding<Result<MFMailComposeResult, Error>?>) {
+             result: Binding<Result<MFMailComposeResult, Error>?>)
+        {
             _isShowing = isShowing
             _result = result
         }

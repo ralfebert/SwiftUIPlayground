@@ -31,9 +31,8 @@ struct ContactFormView: View {
                 }
                 DatePicker(selection: $contact.birthday, label: { Text("Birthday") })
             }
-            Section(header: Text("Special Form styles")) {
-                PickerExampleView()
-            }
+
+            PickerExampleView()
 
         }
         .navigationBarTitle("Contact")

@@ -27,7 +27,7 @@ class TodosModel: ObservableObject {
     var dataTask: AnyPublisher<[TypiTodo], Error> {
         self.urlSession
             .dataTaskPublisher(for: self.url)
-            .map { $0.data }
+            .map(\.data)
             .decode(type: [TypiTodo].self, decoder: JSONDecoder())
             .receive(on: RunLoop.main)
             .eraseToAnyPublisher()

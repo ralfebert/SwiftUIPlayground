@@ -53,7 +53,7 @@ struct ModalPickerView: View {
 
                                 Button(action: {
                                     self.showingModal = false
-                            }) {
+                                }) {
                                     Text("Close")
                                 }.padding()
                             }

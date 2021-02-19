@@ -50,8 +50,7 @@ struct TextSettingsView: View {
     var body: some View {
         Form {
             Picker(selection: $settings.count, label:
-                Text("Text Repeat Count"))
-            {
+                Text("Text Repeat Count")) {
                 ForEach(Array(1 ... 5), id: \.self) { value in
                     Text(String(value)).tag(value)
                 }

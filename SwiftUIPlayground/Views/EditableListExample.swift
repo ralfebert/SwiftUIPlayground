@@ -23,7 +23,7 @@ class BookingModel: ObservableObject {
 
 struct EditableListExample: View {
 
-    @ObservedObject var bookingModel: BookingModel = BookingModel(
+    @ObservedObject var bookingModel = BookingModel(
         positions: [
             Position(count: 1, name: "Candy"),
             Position(count: 0, name: "Bread"),
