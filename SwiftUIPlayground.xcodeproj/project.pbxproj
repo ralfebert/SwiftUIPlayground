@@ -11,6 +11,8 @@
 		BF1C7A662478F51800046F70 /* StateExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C7A652478F51800046F70 /* StateExampleView.swift */; };
 		BF1C7A692478F59800046F70 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = BF1C7A682478F59800046F70 /* CodeScanner */; };
 		BF1C7A6B2478F5AC00046F70 /* QRCodeScannerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C7A6A2478F5AC00046F70 /* QRCodeScannerExampleView.swift */; };
+		BF2B0790262A353500EE3D8E /* EnumeratedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B078F262A353500EE3D8E /* EnumeratedListView.swift */; };
+		BF2B0797262B094200EE3D8E /* Array+Indexed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B0796262B094200EE3D8E /* Array+Indexed.swift */; };
 		BF405753247C0F5B00FEA7D8 /* EditableListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF405752247C0F5B00FEA7D8 /* EditableListExample.swift */; };
 		BF460C5B247BA792009D3AE2 /* PencilKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF460C5A247BA792009D3AE2 /* PencilKitView.swift */; };
 		BF6F691824715E0F00658F64 /* TextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F691724715E0F00658F64 /* TextExampleView.swift */; };
@@ -137,6 +139,8 @@
 		BF13881E2475A07D0037D5B7 /* ProgrammaticNavigationExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticNavigationExampleView.swift; sourceTree = "<group>"; };
 		BF1C7A652478F51800046F70 /* StateExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExampleView.swift; sourceTree = "<group>"; };
 		BF1C7A6A2478F5AC00046F70 /* QRCodeScannerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerExampleView.swift; sourceTree = "<group>"; };
+		BF2B078F262A353500EE3D8E /* EnumeratedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumeratedListView.swift; sourceTree = "<group>"; };
+		BF2B0796262B094200EE3D8E /* Array+Indexed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Indexed.swift"; sourceTree = "<group>"; };
 		BF405752247C0F5B00FEA7D8 /* EditableListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableListExample.swift; sourceTree = "<group>"; };
 		BF460C5A247BA792009D3AE2 /* PencilKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitView.swift; sourceTree = "<group>"; };
 		BF6F691724715E0F00658F64 /* TextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleView.swift; sourceTree = "<group>"; };
@@ -305,6 +309,7 @@
 			children = (
 				BF8502D2247148AB0070D0F5 /* Date+Extensions.swift */,
 				BFF2C5AC2475CE370031B5C3 /* SwiftUI+IfLet.swift */,
+				BF2B0796262B094200EE3D8E /* Array+Indexed.swift */,
 			);
 			path = Convenience;
 			sourceTree = "<group>";
@@ -573,6 +578,7 @@
 				BF1C7A652478F51800046F70 /* StateExampleView.swift */,
 				BF1C7A6A2478F5AC00046F70 /* QRCodeScannerExampleView.swift */,
 				BF405752247C0F5B00FEA7D8 /* EditableListExample.swift */,
+				BF2B078F262A353500EE3D8E /* EnumeratedListView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -777,10 +783,12 @@
 				BF90EA87247041DF00FCF16D /* SwiftUISwitchView.swift in Sources */,
 				BF90EB372471459200FCF16D /* HikeView.swift in Sources */,
 				BF90EAC624712C5400FCF16D /* CoreDataStack.swift in Sources */,
+				BF2B0790262A353500EE3D8E /* EnumeratedListView.swift in Sources */,
 				BF90EB202471459200FCF16D /* PageControl.swift in Sources */,
 				BF90EB362471459200FCF16D /* HexagonParameters.swift in Sources */,
 				BFF2C5AB2475CC6A0031B5C3 /* ShareSheetExampleView.swift in Sources */,
 				BF90EB272471459200FCF16D /* ProfileHost.swift in Sources */,
+				BF2B0797262B094200EE3D8E /* Array+Indexed.swift in Sources */,
 				BF8502D3247148AB0070D0F5 /* Date+Extensions.swift in Sources */,
 				BF6F6920247199AE00658F64 /* TodosURLSessionExampleView.swift in Sources */,
 				BF90EB0D2471459200FCF16D /* Hike.swift in Sources */,

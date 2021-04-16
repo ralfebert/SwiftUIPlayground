@@ -3,7 +3,7 @@
 
 import SwiftUI
 
-// see https://stackoverflow.com/questions/60421104/swiftui-how-to-update-passing-array-item-in-the-other-view
+// see https://stackoverflow.com/a/62005070/128083
 
 struct Position {
     var id = UUID()
@@ -32,7 +32,7 @@ struct EditableListExample: View {
 
     var body: some View {
         // >>> Passing a binding into an Array via index:
-        List(Array(bookingModel.positions.enumerated()), id: \.element.id) { i, _ in
+        List(bookingModel.positions.indexed(), id: \.element.id) { i, _ in
             PositionRowView(position: self.$bookingModel.positions[i])
         }
     }
