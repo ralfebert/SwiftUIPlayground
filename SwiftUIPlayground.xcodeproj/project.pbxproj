@@ -10,6 +10,7 @@
 		BF13881F2475A07D0037D5B7 /* ProgrammaticNavigationExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF13881E2475A07D0037D5B7 /* ProgrammaticNavigationExampleView.swift */; };
 		BF174E37264161790074CB65 /* SceneViewExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF174E36264161790074CB65 /* SceneViewExample.swift */; };
 		BF174E39264161B80074CB65 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = BF174E38264161B80074CB65 /* art.scnassets */; };
+		BF174E682641AB810074CB65 /* ShadowsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF174E672641AB810074CB65 /* ShadowsView.swift */; };
 		BF1C7A662478F51800046F70 /* StateExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C7A652478F51800046F70 /* StateExampleView.swift */; };
 		BF1C7A692478F59800046F70 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = BF1C7A682478F59800046F70 /* CodeScanner */; };
 		BF1C7A6B2478F5AC00046F70 /* QRCodeScannerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C7A6A2478F5AC00046F70 /* QRCodeScannerExampleView.swift */; };
@@ -142,6 +143,7 @@
 		BF13881E2475A07D0037D5B7 /* ProgrammaticNavigationExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticNavigationExampleView.swift; sourceTree = "<group>"; };
 		BF174E36264161790074CB65 /* SceneViewExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneViewExample.swift; sourceTree = "<group>"; };
 		BF174E38264161B80074CB65 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		BF174E672641AB810074CB65 /* ShadowsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowsView.swift; sourceTree = "<group>"; };
 		BF1C7A652478F51800046F70 /* StateExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateExampleView.swift; sourceTree = "<group>"; };
 		BF1C7A6A2478F5AC00046F70 /* QRCodeScannerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerExampleView.swift; sourceTree = "<group>"; };
 		BF2B078F262A353500EE3D8E /* EnumeratedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumeratedListView.swift; sourceTree = "<group>"; };
@@ -588,6 +590,7 @@
 				BF2B078F262A353500EE3D8E /* EnumeratedListView.swift */,
 				BF174E36264161790074CB65 /* SceneViewExample.swift */,
 				BF174E38264161B80074CB65 /* art.scnassets */,
+				BF174E672641AB810074CB65 /* ShadowsView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -738,6 +741,7 @@
 				BF8502DD2471566B0070D0F5 /* PickerExampleView.swift in Sources */,
 				BF8502D92471532A0070D0F5 /* MainView.swift in Sources */,
 				BFF8F878246FB5CA0034DA9E /* ColorCycleView.swift in Sources */,
+				BF174E682641AB810074CB65 /* ShadowsView.swift in Sources */,
 				BF90EB2C2471459200FCF16D /* BadgeSymbol.swift in Sources */,
 				BF460C5B247BA792009D3AE2 /* PencilKitView.swift in Sources */,
 				BF90EB2A2471459200FCF16D /* MapView.swift in Sources */,
