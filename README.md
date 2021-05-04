@@ -1,6 +1,6 @@
 # SwiftUIPlayground
 
-SwiftUIPlayground is a comprehensive collection of SwiftUI example code:
+SwiftUIPlayground is a collection of SwiftUI example snippets:
 
 SwiftUI view                             | UIKit View                                             | Example
 ---------------------------------------- | ------------------------------------------------------ | --------------------------------------------------------------------------
