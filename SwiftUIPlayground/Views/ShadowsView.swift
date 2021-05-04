@@ -11,18 +11,17 @@ struct ShadowsView: View {
     }
 
     var scrollView: some View {
-        ScrollView {
-            VStack {
-                ForEach(1 ... 3, id: \.self) { _ in
-                    Color.white
-                        .frame(height: 100)
-                        .cornerRadius(10)
-                        .shadow(color: Color.red, radius: 30, x: 0, y: 0)
-                }
+        VStack {
+            ForEach(1 ... 3, id: \.self) { _ in
+                Color.white
+                    .frame(height: 100)
+                    .cornerRadius(10)
+                    .shadow(color: Color.red, radius: 30, x: 0, y: 0)
             }
-            .padding()
         }
-        .frame(height: 220)
+        .compositingGroup()
+        .padding()
+        .frame(height: 200, alignment: .top)
     }
 }
 
