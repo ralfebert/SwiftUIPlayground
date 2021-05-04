@@ -20,11 +20,17 @@ struct EnumeratedListView: View {
     @StateObject var homeModel = HomeModel()
 
     var body: some View {
-        Form {
-            ForEach(self.homeModel.lights.indexed(), id: \.element.id) { idx, light in
-                Toggle("Light \(light.id)", isOn: $homeModel.lights[idx].active)
+        HStack {
+            Form {
+                ForEach(self.homeModel.lights.indexed(), id: \.element.id) { idx, light in
+                    Toggle("Light \(light.id)", isOn: $homeModel.lights[idx].active)
+                }
             }
+            Text("Hello")
+                .frame(maxHeight: .infinity)
+                .background(Color.red)
         }
+        .background(Color(UIColor.systemGroupedBackground).ignoresSafeArea())
     }
 
 }

@@ -53,7 +53,7 @@ struct AllWidgetsView: View {
                         }
                     }
                 }
-                // it's true, a view function builder cannot take more than 10 views as of Xcode 11.4
+                // it's true, a view function builder cannot take more than 10 views as of Xcode 12.5
                 Group {
                     Section(header: Text("Slider")) {
                         SliderExampleView()
@@ -72,6 +72,9 @@ struct AllWidgetsView: View {
                     }
                     Section(header: Text("Toggle")) {
                         ToggleExampleView()
+                    }
+                    Section(header: Text("SceneView")) {
+                        SceneViewExample()
                     }
                 }
             }
