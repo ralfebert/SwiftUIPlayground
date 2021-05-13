@@ -23,6 +23,7 @@
 		BF6F691C24716BB000658F64 /* ImageExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F691B24716BB000658F64 /* ImageExampleView.swift */; };
 		BF6F6920247199AE00658F64 /* TodosURLSessionExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F691F247199AE00658F64 /* TodosURLSessionExampleView.swift */; };
 		BF6F69222471A44300658F64 /* ActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F69212471A44300658F64 /* ActivityIndicatorView.swift */; };
+		BF842B57264D08A600DDEE9C /* CloseButtonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF842B56264D08A600DDEE9C /* CloseButtonExampleView.swift */; };
 		BF8502D3247148AB0070D0F5 /* Date+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502D2247148AB0070D0F5 /* Date+Extensions.swift */; };
 		BF8502D524714A580070D0F5 /* AllWidgetsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502D424714A580070D0F5 /* AllWidgetsView.swift */; };
 		BF8502D724714E630070D0F5 /* EditButtonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8502D624714E630070D0F5 /* EditButtonExampleView.swift */; };
@@ -155,6 +156,7 @@
 		BF6F691B24716BB000658F64 /* ImageExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExampleView.swift; sourceTree = "<group>"; };
 		BF6F691F247199AE00658F64 /* TodosURLSessionExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodosURLSessionExampleView.swift; sourceTree = "<group>"; };
 		BF6F69212471A44300658F64 /* ActivityIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActivityIndicatorView.swift; sourceTree = "<group>"; };
+		BF842B56264D08A600DDEE9C /* CloseButtonExampleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CloseButtonExampleView.swift; sourceTree = "<group>"; };
 		BF8502D2247148AB0070D0F5 /* Date+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extensions.swift"; sourceTree = "<group>"; };
 		BF8502D424714A580070D0F5 /* AllWidgetsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllWidgetsView.swift; sourceTree = "<group>"; };
 		BF8502D624714E630070D0F5 /* EditButtonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditButtonExampleView.swift; sourceTree = "<group>"; };
@@ -591,6 +593,7 @@
 				BF174E36264161790074CB65 /* SceneViewExample.swift */,
 				BF174E38264161B80074CB65 /* art.scnassets */,
 				BF174E672641AB810074CB65 /* ShadowsView.swift */,
+				BF842B56264D08A600DDEE9C /* CloseButtonExampleView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -734,6 +737,7 @@
 				BFC77F30247507D0007AAE59 /* MailView.swift in Sources */,
 				BF8502D524714A580070D0F5 /* AllWidgetsView.swift in Sources */,
 				BF95D98A2477F54600CB7895 /* AlertExampleView.swift in Sources */,
+				BF842B57264D08A600DDEE9C /* CloseButtonExampleView.swift in Sources */,
 				BF90EB2B2471459200FCF16D /* CircleImage.swift in Sources */,
 				BF8502E1247159800070D0F5 /* ButtonExampleView.swift in Sources */,
 				BF90EB292471459200FCF16D /* RotatedBadgeSymbol.swift in Sources */,
