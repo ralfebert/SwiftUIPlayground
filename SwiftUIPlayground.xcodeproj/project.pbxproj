@@ -16,6 +16,7 @@
 		BF1C7A6B2478F5AC00046F70 /* QRCodeScannerExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF1C7A6A2478F5AC00046F70 /* QRCodeScannerExampleView.swift */; };
 		BF2B0790262A353500EE3D8E /* EnumeratedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B078F262A353500EE3D8E /* EnumeratedListView.swift */; };
 		BF2B0797262B094200EE3D8E /* Array+Indexed.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF2B0796262B094200EE3D8E /* Array+Indexed.swift */; };
+		BF33FCF8264FD043005BA009 /* SizePreferenceExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33FCF7264FD043005BA009 /* SizePreferenceExampleView.swift */; };
 		BF405753247C0F5B00FEA7D8 /* EditableListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF405752247C0F5B00FEA7D8 /* EditableListExample.swift */; };
 		BF460C5B247BA792009D3AE2 /* PencilKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF460C5A247BA792009D3AE2 /* PencilKitView.swift */; };
 		BF6F691824715E0F00658F64 /* TextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F691724715E0F00658F64 /* TextExampleView.swift */; };
@@ -149,6 +150,7 @@
 		BF1C7A6A2478F5AC00046F70 /* QRCodeScannerExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRCodeScannerExampleView.swift; sourceTree = "<group>"; };
 		BF2B078F262A353500EE3D8E /* EnumeratedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnumeratedListView.swift; sourceTree = "<group>"; };
 		BF2B0796262B094200EE3D8E /* Array+Indexed.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Array+Indexed.swift"; sourceTree = "<group>"; };
+		BF33FCF7264FD043005BA009 /* SizePreferenceExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizePreferenceExampleView.swift; sourceTree = "<group>"; };
 		BF405752247C0F5B00FEA7D8 /* EditableListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableListExample.swift; sourceTree = "<group>"; };
 		BF460C5A247BA792009D3AE2 /* PencilKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitView.swift; sourceTree = "<group>"; };
 		BF6F691724715E0F00658F64 /* TextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleView.swift; sourceTree = "<group>"; };
@@ -593,6 +595,7 @@
 				BF174E36264161790074CB65 /* SceneViewExample.swift */,
 				BF174E38264161B80074CB65 /* art.scnassets */,
 				BF174E672641AB810074CB65 /* ShadowsView.swift */,
+				BF33FCF7264FD043005BA009 /* SizePreferenceExampleView.swift */,
 				BF842B56264D08A600DDEE9C /* CloseButtonExampleView.swift */,
 			);
 			path = Views;
@@ -776,6 +779,7 @@
 				BFF732D6247277F6005B17A8 /* Binding+OptionalFallback.swift in Sources */,
 				BF90EB0E2471459200FCF16D /* Landmark.swift in Sources */,
 				BFF2C5C12477B5740031B5C3 /* DarkModeExampleView.swift in Sources */,
+				BF33FCF8264FD043005BA009 /* SizePreferenceExampleView.swift in Sources */,
 				BF13881F2475A07D0037D5B7 /* ProgrammaticNavigationExampleView.swift in Sources */,
 				BFC77F3424751051007AAE59 /* LayoutSameHeightView.swift in Sources */,
 				BF90EA8924710F2100FCF16D /* EnvironmentView.swift in Sources */,

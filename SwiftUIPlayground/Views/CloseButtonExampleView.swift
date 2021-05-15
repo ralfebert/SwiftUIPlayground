@@ -25,7 +25,8 @@ struct CloseButtonExampleView: View {
                 }
             }
         )
-        .padding(16)
+        .padding(20)
+        .ignoresSafeArea()
     }
 
 }
