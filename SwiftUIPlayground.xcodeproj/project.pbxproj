@@ -19,6 +19,7 @@
 		BF33FCF8264FD043005BA009 /* SizePreferenceExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF33FCF7264FD043005BA009 /* SizePreferenceExampleView.swift */; };
 		BF405753247C0F5B00FEA7D8 /* EditableListExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF405752247C0F5B00FEA7D8 /* EditableListExample.swift */; };
 		BF460C5B247BA792009D3AE2 /* PencilKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF460C5A247BA792009D3AE2 /* PencilKitView.swift */; };
+		BF54B3D5265BABAC0035F5ED /* MenuButtonExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF54B3D4265BABAC0035F5ED /* MenuButtonExampleView.swift */; };
 		BF6F691824715E0F00658F64 /* TextExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F691724715E0F00658F64 /* TextExampleView.swift */; };
 		BF6F691A24715E8300658F64 /* ToggleExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F691924715E8300658F64 /* ToggleExampleView.swift */; };
 		BF6F691C24716BB000658F64 /* ImageExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6F691B24716BB000658F64 /* ImageExampleView.swift */; };
@@ -95,9 +96,10 @@
 		BF90EB362471459200FCF16D /* HexagonParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90EB082471459200FCF16D /* HexagonParameters.swift */; };
 		BF90EB372471459200FCF16D /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90EB092471459200FCF16D /* HikeView.swift */; };
 		BF90EB392471465200FCF16D /* ContactFormView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF90EB382471465200FCF16D /* ContactFormView.swift */; };
-		BF95CB4926514C9300BC54FB /* StrangeStateGlitchExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF95CB4826514C9300BC54FB /* StrangeStateGlitchExampleView.swift */; };
+		BF95CB4926514C9300BC54FB /* DashboardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF95CB4826514C9300BC54FB /* DashboardView.swift */; };
 		BF95D98A2477F54600CB7895 /* AlertExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF95D9892477F54600CB7895 /* AlertExampleView.swift */; };
 		BF95D9B42478130000CB7895 /* CameraButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF95D9B32478130000CB7895 /* CameraButtonView.swift */; };
+		BF99AAF0268DC5AC0083367F /* StrangeStateGlitchExampleView copy.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF99AAEF268DC5AC0083367F /* StrangeStateGlitchExampleView copy.swift */; };
 		BFB79396263B1CE000C94E66 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB79395263B1CE000C94E66 /* CustomAlertView.swift */; };
 		BFB9E441247303E300F4C7EE /* PlaygroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFB9E440247303E300F4C7EE /* PlaygroundView.swift */; };
 		BFC77F30247507D0007AAE59 /* MailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFC77F2F247507D0007AAE59 /* MailView.swift */; };
@@ -154,6 +156,7 @@
 		BF33FCF7264FD043005BA009 /* SizePreferenceExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizePreferenceExampleView.swift; sourceTree = "<group>"; };
 		BF405752247C0F5B00FEA7D8 /* EditableListExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditableListExample.swift; sourceTree = "<group>"; };
 		BF460C5A247BA792009D3AE2 /* PencilKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PencilKitView.swift; sourceTree = "<group>"; };
+		BF54B3D4265BABAC0035F5ED /* MenuButtonExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuButtonExampleView.swift; sourceTree = "<group>"; };
 		BF6F691724715E0F00658F64 /* TextExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextExampleView.swift; sourceTree = "<group>"; };
 		BF6F691924715E8300658F64 /* ToggleExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleExampleView.swift; sourceTree = "<group>"; };
 		BF6F691B24716BB000658F64 /* ImageExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageExampleView.swift; sourceTree = "<group>"; };
@@ -229,9 +232,10 @@
 		BF90EB082471459200FCF16D /* HexagonParameters.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexagonParameters.swift; sourceTree = "<group>"; };
 		BF90EB092471459200FCF16D /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
 		BF90EB382471465200FCF16D /* ContactFormView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactFormView.swift; sourceTree = "<group>"; };
-		BF95CB4826514C9300BC54FB /* StrangeStateGlitchExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrangeStateGlitchExampleView.swift; sourceTree = "<group>"; };
+		BF95CB4826514C9300BC54FB /* DashboardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashboardView.swift; sourceTree = "<group>"; };
 		BF95D9892477F54600CB7895 /* AlertExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExampleView.swift; sourceTree = "<group>"; };
 		BF95D9B32478130000CB7895 /* CameraButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraButtonView.swift; sourceTree = "<group>"; };
+		BF99AAEF268DC5AC0083367F /* StrangeStateGlitchExampleView copy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "StrangeStateGlitchExampleView copy.swift"; sourceTree = "<group>"; };
 		BFB79395263B1CE000C94E66 /* CustomAlertView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
 		BFB9E440247303E300F4C7EE /* PlaygroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlaygroundView.swift; sourceTree = "<group>"; };
 		BFC77F2F247507D0007AAE59 /* MailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MailView.swift; sourceTree = "<group>"; };
@@ -599,7 +603,9 @@
 				BF174E672641AB810074CB65 /* ShadowsView.swift */,
 				BF33FCF7264FD043005BA009 /* SizePreferenceExampleView.swift */,
 				BF842B56264D08A600DDEE9C /* CloseButtonExampleView.swift */,
-				BF95CB4826514C9300BC54FB /* StrangeStateGlitchExampleView.swift */,
+				BF54B3D4265BABAC0035F5ED /* MenuButtonExampleView.swift */,
+				BF99AAEF268DC5AC0083367F /* StrangeStateGlitchExampleView copy.swift */,
+				BF95CB4826514C9300BC54FB /* DashboardView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -770,6 +776,7 @@
 				BFF8F87A246FB8280034DA9E /* PlayersProgressView.swift in Sources */,
 				BFF2C5AD2475CE370031B5C3 /* SwiftUI+IfLet.swift in Sources */,
 				BF90EB392471465200FCF16D /* ContactFormView.swift in Sources */,
+				BF99AAF0268DC5AC0083367F /* StrangeStateGlitchExampleView copy.swift in Sources */,
 				BF90EA8B2471148700FCF16D /* ChartExampleView.swift in Sources */,
 				BF90EACA24712CC600FCF16D /* PlaygroundModel.xcdatamodeld in Sources */,
 				BF8502DB247154D60070D0F5 /* NavigationViewExample.swift in Sources */,
@@ -799,7 +806,7 @@
 				BFF8F851246FA10B0034DA9E /* ClipImageSquareView.swift in Sources */,
 				BF6F69222471A44300658F64 /* ActivityIndicatorView.swift in Sources */,
 				BF90EB222471459200FCF16D /* CategoryRow.swift in Sources */,
-				BF95CB4926514C9300BC54FB /* StrangeStateGlitchExampleView.swift in Sources */,
+				BF95CB4926514C9300BC54FB /* DashboardView.swift in Sources */,
 				BF90EAD224712D4900FCF16D /* TodosView.swift in Sources */,
 				BF90EB322471459200FCF16D /* GraphCapsule.swift in Sources */,
 				BF90EA922471297100FCF16D /* AccountView.swift in Sources */,
@@ -830,6 +837,7 @@
 				BFF2C5C52477E6B70031B5C3 /* RelativePositionExampleView.swift in Sources */,
 				BF90EB2E2471459200FCF16D /* Badge.swift in Sources */,
 				BFF8F872246FA8380034DA9E /* ConditionalDatePickerView.swift in Sources */,
+				BF54B3D5265BABAC0035F5ED /* MenuButtonExampleView.swift in Sources */,
 				BFF2C5B2247648710031B5C3 /* ModalPickerView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

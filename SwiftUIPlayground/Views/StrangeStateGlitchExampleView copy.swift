@@ -7,8 +7,11 @@ class FlipModel: ObservableObject {
     @Published var flipped = true {
         didSet {
             print("new value for flipped: \(self.flipped)")
+            self.counterModel?.counter += 1
         }
     }
+
+    var counterModel: CounterModel?
 }
 
 class CounterModel: ObservableObject {
@@ -36,11 +39,10 @@ struct StrangeStateGlitchExampleView: View {
             Text("Flipped (ExampleView): \(String(describing: flipModel.flipped))")
             Text("Flipped \(self.counterModel.counter) times")
         }
-        .onReceive(self.flipModel.$flipped, perform: { _ in
-            withAnimation {
-                self.counterModel.counter += 1
-            }
-        })
+        .onAppear {
+            self.flipModel.counterModel = counterModel
+        }
+
     }
 
 }

@@ -3,23 +3,34 @@
 
 import SwiftUI
 
-struct InnerView: View {
+struct CounterView: View {
+    let name: String
     @State var count = 1
 
     var body: some View {
-        Button("Inner Count \(count)") { self.count += 1 }
-            .border(Color.blue)
+        Button("Counter \(name) \(count)") { self.count += 1 }
             .padding()
+            .border(Color.blue)
     }
 }
 
+/// Demonstrates that SwiftUI state is coupled to view appearance / disappearance
 struct StateExampleView: View {
-    @State var count = 1
+
+    @State var showB = false
 
     var body: some View {
         VStack {
-            Button("Outer Count \(count)") { self.count += 1 }
-            InnerView()
+
+            Toggle(isOn: $showB) {
+                Text("Toggle A/B")
+            }
+
+            if showB {
+                CounterView(name: "B")
+            } else {
+                CounterView(name: "A")
+            }
         }
         .border(Color.red)
         .padding()
