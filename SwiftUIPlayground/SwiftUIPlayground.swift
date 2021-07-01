@@ -7,7 +7,7 @@ import SwiftUI
 struct SwiftUIPlayground: App {
     var body: some Scene {
         WindowGroup {
-            MenuButtonExampleView()
+            MainView()
         }
     }
 }

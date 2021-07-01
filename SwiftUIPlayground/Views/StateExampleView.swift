@@ -17,10 +17,14 @@ struct CounterView: View {
 /// Demonstrates that SwiftUI state is coupled to view appearance / disappearance
 struct StateExampleView: View {
 
+    @State var outerCount = 1
     @State var showB = false
 
     var body: some View {
         VStack {
+
+            Button("Outer Counter \(outerCount)") { self.outerCount += 1 }
+                .padding()
 
             Toggle(isOn: $showB) {
                 Text("Toggle A/B")
@@ -31,6 +35,15 @@ struct StateExampleView: View {
             } else {
                 CounterView(name: "A")
             }
+
+            if showB {
+                CounterView(name: "B")
+            } else {
+                CounterView(name: "A")
+            }
+
+            CounterView(name: "C")
+
         }
         .border(Color.red)
         .padding()

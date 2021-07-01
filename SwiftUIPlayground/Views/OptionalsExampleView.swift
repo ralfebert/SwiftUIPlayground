@@ -10,7 +10,6 @@ struct Person {
 struct OptionalsExampleView: View {
 
     var person: Person? = Person(name: "Bob")
-    var userStatus: Status = .loggedIn
 
     var body: some View {
         VStack {

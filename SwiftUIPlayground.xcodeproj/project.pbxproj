@@ -108,7 +108,6 @@
 		BFDBD5BC246FEAB0000B8CB5 /* KeyboardAware in Frameworks */ = {isa = PBXBuildFile; productRef = BFDBD5BB246FEAB0000B8CB5 /* KeyboardAware */; };
 		BFDBD5BE2470385A000B8CB5 /* DragGestureView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFDBD5BD2470385A000B8CB5 /* DragGestureView.swift */; };
 		BFF2C5AB2475CC6A0031B5C3 /* ShareSheetExampleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5AA2475CC6A0031B5C3 /* ShareSheetExampleView.swift */; };
-		BFF2C5AD2475CE370031B5C3 /* SwiftUI+IfLet.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5AC2475CE370031B5C3 /* SwiftUI+IfLet.swift */; };
 		BFF2C5B2247648710031B5C3 /* ModalPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5B1247648710031B5C3 /* ModalPickerView.swift */; };
 		BFF2C5B424764EF40031B5C3 /* SelectionEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5B324764EF40031B5C3 /* SelectionEffectView.swift */; };
 		BFF2C5B8247715360031B5C3 /* ImageEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF2C5B7247715360031B5C3 /* ImageEffectView.swift */; };
@@ -124,7 +123,6 @@
 		BFF8F853246FA10D0034DA9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF8F852246FA10D0034DA9E /* Assets.xcassets */; };
 		BFF8F856246FA10D0034DA9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFF8F855246FA10D0034DA9E /* Preview Assets.xcassets */; };
 		BFF8F859246FA10D0034DA9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFF8F857246FA10D0034DA9E /* LaunchScreen.storyboard */; };
-		BFF8F864246FA10D0034DA9E /* SwiftUIPlaygroundTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F863246FA10D0034DA9E /* SwiftUIPlaygroundTests.swift */; };
 		BFF8F870246FA5680034DA9E /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = BFF8F86F246FA5680034DA9E /* README.md */; };
 		BFF8F872246FA8380034DA9E /* ConditionalDatePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F871246FA8380034DA9E /* ConditionalDatePickerView.swift */; };
 		BFF8F874246FABD90034DA9E /* SizedUIViewRepresentableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F873246FABD90034DA9E /* SizedUIViewRepresentableView.swift */; };
@@ -133,16 +131,6 @@
 		BFF8F87A246FB8280034DA9E /* PlayersProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F879246FB8280034DA9E /* PlayersProgressView.swift */; };
 		BFF8F87C246FD8170034DA9E /* KeyboardAwareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF8F87B246FD8170034DA9E /* KeyboardAwareView.swift */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		BFF8F860246FA10D0034DA9E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFF8F841246FA10B0034DA9E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BFF8F848246FA10B0034DA9E;
-			remoteInfo = SwiftUIPlayground;
-		};
-/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BF13881E2475A07D0037D5B7 /* ProgrammaticNavigationExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgrammaticNavigationExampleView.swift; sourceTree = "<group>"; };
@@ -243,7 +231,6 @@
 		BFC77F3524752FBA007AAE59 /* OptionalsExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionalsExampleView.swift; sourceTree = "<group>"; };
 		BFDBD5BD2470385A000B8CB5 /* DragGestureView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureView.swift; sourceTree = "<group>"; };
 		BFF2C5AA2475CC6A0031B5C3 /* ShareSheetExampleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheetExampleView.swift; sourceTree = "<group>"; };
-		BFF2C5AC2475CE370031B5C3 /* SwiftUI+IfLet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SwiftUI+IfLet.swift"; sourceTree = "<group>"; };
 		BFF2C5B1247648710031B5C3 /* ModalPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModalPickerView.swift; sourceTree = "<group>"; };
 		BFF2C5B324764EF40031B5C3 /* SelectionEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectionEffectView.swift; sourceTree = "<group>"; };
 		BFF2C5B7247715360031B5C3 /* ImageEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageEffectView.swift; sourceTree = "<group>"; };
@@ -261,9 +248,6 @@
 		BFF8F855246FA10D0034DA9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFF8F858246FA10D0034DA9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFF8F85A246FA10D0034DA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFF8F85F246FA10D0034DA9E /* SwiftUIPlaygroundTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftUIPlaygroundTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFF8F863246FA10D0034DA9E /* SwiftUIPlaygroundTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIPlaygroundTests.swift; sourceTree = "<group>"; };
-		BFF8F865246FA10D0034DA9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFF8F86F246FA5680034DA9E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BFF8F871246FA8380034DA9E /* ConditionalDatePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConditionalDatePickerView.swift; sourceTree = "<group>"; };
 		BFF8F873246FABD90034DA9E /* SizedUIViewRepresentableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SizedUIViewRepresentableView.swift; sourceTree = "<group>"; };
@@ -281,13 +265,6 @@
 				BFDBD5BC246FEAB0000B8CB5 /* KeyboardAware in Frameworks */,
 				BF90EA90247125B200FCF16D /* ImagePickerView in Frameworks */,
 				BF1C7A692478F59800046F70 /* CodeScanner in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BFF8F85C246FA10D0034DA9E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,7 +303,6 @@
 			isa = PBXGroup;
 			children = (
 				BF8502D2247148AB0070D0F5 /* Date+Extensions.swift */,
-				BFF2C5AC2475CE370031B5C3 /* SwiftUI+IfLet.swift */,
 				BF2B0796262B094200EE3D8E /* Array+Indexed.swift */,
 			);
 			path = Convenience;
@@ -499,7 +475,6 @@
 			children = (
 				BFF8F86F246FA5680034DA9E /* README.md */,
 				BFF8F84B246FA10B0034DA9E /* SwiftUIPlayground */,
-				BFF8F862246FA10D0034DA9E /* SwiftUIPlaygroundTests */,
 				BFF8F84A246FA10B0034DA9E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -508,7 +483,6 @@
 			isa = PBXGroup;
 			children = (
 				BFF8F849246FA10B0034DA9E /* SwiftUIPlayground.app */,
-				BFF8F85F246FA10D0034DA9E /* SwiftUIPlaygroundTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -535,15 +509,6 @@
 				BFF8F855246FA10D0034DA9E /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
-			sourceTree = "<group>";
-		};
-		BFF8F862246FA10D0034DA9E /* SwiftUIPlaygroundTests */ = {
-			isa = PBXGroup;
-			children = (
-				BFF8F863246FA10D0034DA9E /* SwiftUIPlaygroundTests.swift */,
-				BFF8F865246FA10D0034DA9E /* Info.plist */,
-			);
-			path = SwiftUIPlaygroundTests;
 			sourceTree = "<group>";
 		};
 		BFF8F86E246FA3F40034DA9E /* Views */ = {
@@ -635,24 +600,6 @@
 			productReference = BFF8F849246FA10B0034DA9E /* SwiftUIPlayground.app */;
 			productType = "com.apple.product-type.application";
 		};
-		BFF8F85E246FA10D0034DA9E /* SwiftUIPlaygroundTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BFF8F86B246FA10D0034DA9E /* Build configuration list for PBXNativeTarget "SwiftUIPlaygroundTests" */;
-			buildPhases = (
-				BFF8F85B246FA10D0034DA9E /* Sources */,
-				BFF8F85C246FA10D0034DA9E /* Frameworks */,
-				BFF8F85D246FA10D0034DA9E /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BFF8F861246FA10D0034DA9E /* PBXTargetDependency */,
-			);
-			name = SwiftUIPlaygroundTests;
-			productName = SwiftUIPlaygroundTests;
-			productReference = BFF8F85F246FA10D0034DA9E /* SwiftUIPlaygroundTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -665,10 +612,6 @@
 				TargetAttributes = {
 					BFF8F848246FA10B0034DA9E = {
 						CreatedOnToolsVersion = 11.4.1;
-					};
-					BFF8F85E246FA10D0034DA9E = {
-						CreatedOnToolsVersion = 11.4.1;
-						TestTargetID = BFF8F848246FA10B0034DA9E;
 					};
 				};
 			};
@@ -691,7 +634,6 @@
 			projectRoot = "";
 			targets = (
 				BFF8F848246FA10B0034DA9E /* SwiftUIPlayground */,
-				BFF8F85E246FA10D0034DA9E /* SwiftUIPlaygroundTests */,
 			);
 		};
 /* End PBXProject section */
@@ -723,13 +665,6 @@
 				BF90EB172471459200FCF16D /* twinlake.jpg in Resources */,
 				BF90EB1B2471459200FCF16D /* chincoteague.jpg in Resources */,
 				BF90EB0F2471459200FCF16D /* turtlerock_feature.jpg in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BFF8F85D246FA10D0034DA9E /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -774,7 +709,6 @@
 				BF90EB212471459200FCF16D /* Home.swift in Sources */,
 				BF90EB282471459200FCF16D /* FeatureCard.swift in Sources */,
 				BFF8F87A246FB8280034DA9E /* PlayersProgressView.swift in Sources */,
-				BFF2C5AD2475CE370031B5C3 /* SwiftUI+IfLet.swift in Sources */,
 				BF90EB392471465200FCF16D /* ContactFormView.swift in Sources */,
 				BF99AAF0268DC5AC0083367F /* StrangeStateGlitchExampleView copy.swift in Sources */,
 				BF90EA8B2471148700FCF16D /* ChartExampleView.swift in Sources */,
@@ -842,23 +776,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BFF8F85B246FA10D0034DA9E /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BFF8F864246FA10D0034DA9E /* SwiftUIPlaygroundTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BFF8F861246FA10D0034DA9E /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BFF8F848246FA10B0034DA9E /* SwiftUIPlayground */;
-			targetProxy = BFF8F860246FA10D0034DA9E /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BFF8F857246FA10D0034DA9E /* LaunchScreen.storyboard */ = {
@@ -1028,50 +946,6 @@
 			};
 			name = Release;
 		};
-		BFF8F86C246FA10D0034DA9E /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R476D442DR;
-				INFOPLIST_FILE = SwiftUIPlaygroundTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.SwiftUIPlaygroundTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIPlayground.app/SwiftUIPlayground";
-			};
-			name = Debug;
-		};
-		BFF8F86D246FA10D0034DA9E /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R476D442DR;
-				INFOPLIST_FILE = SwiftUIPlaygroundTests/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.SwiftUIPlaygroundTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftUIPlayground.app/SwiftUIPlayground";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1089,15 +963,6 @@
 			buildConfigurations = (
 				BFF8F869246FA10D0034DA9E /* Debug */,
 				BFF8F86A246FA10D0034DA9E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BFF8F86B246FA10D0034DA9E /* Build configuration list for PBXNativeTarget "SwiftUIPlaygroundTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BFF8F86C246FA10D0034DA9E /* Debug */,
-				BFF8F86D246FA10D0034DA9E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

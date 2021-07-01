@@ -84,7 +84,7 @@ struct StatusOverlay: View {
         case .ready:
             EmptyView()
         case .loading:
-            ActivityIndicatorView(isAnimating: .constant(true), style: .large)
+            ProgressView()
         case .loaded:
             EmptyView()
         case let .error(error):
