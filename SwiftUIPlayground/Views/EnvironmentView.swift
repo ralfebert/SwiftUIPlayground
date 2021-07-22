@@ -20,7 +20,7 @@ struct EnvironmentView: View {
             Text("Locale: \(String(describing: locale))")
             Text("Size category: \(String(describing: sizeCategory))")
             Text("horizontalSizeClass: \(String(describing: horizontalSizeClass))")
-            Text("verticalSizeClass: \(String(describing: horizontalSizeClass))")
+            Text("verticalSizeClass: \(String(describing: verticalSizeClass))")
             Text("font: \(String(describing: font))")
             Text("isEnabled: \(String(describing: isEnabled))")
             Text("colorScheme: \(String(describing: colorScheme))")
